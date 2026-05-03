@@ -1,0 +1,15 @@
+{
+  "id": "trg_032_perf_dip_m_020_renu_salon_luc",
+  "scope": "merchant",
+  "kind": "perf_dip",
+  "source": "internal",
+  "merchant_id": "m_020_renu_salon_lucknow",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "perf_dip"
+  },
+  "urgency": 3,
+  "suppression_key": "perf_dip:m_020_renu_salon_lucknow:gen_32",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "trg_074_customer_lapsed_soft_m_037_pooja_gym_bang",
+  "scope": "customer",
+  "kind": "customer_lapsed_soft",
+  "source": "internal",
+  "merchant_id": "m_037_pooja_gym_bangalore",
+  "customer_id": "c_145_riya_for_m_037_pooja_gym_bangalore",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "customer_lapsed_soft"
+  },
+  "urgency": 3,
+  "suppression_key": "customer_lapsed_soft:m_037_pooja_gym_bangalore:gen_74",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

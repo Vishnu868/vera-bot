@@ -1,0 +1,28 @@
+{
+  "customer_id": "c_174_aadhya_for_m_044_vinod_pharmacie_chennai",
+  "merchant_id": "m_044_vinod_pharmacie_chennai",
+  "identity": {
+    "name": "Aadhya",
+    "phone_redacted": "<phone>",
+    "language_pref": "en",
+    "age_band": "25-35"
+  },
+  "relationship": {
+    "first_visit": "2025-09-01",
+    "last_visit": "2026-04-01",
+    "visits_total": 10,
+    "services_received": [],
+    "lifetime_value": 3940
+  },
+  "state": "lapsed_soft",
+  "preferences": {
+    "channel": "whatsapp",
+    "reminder_opt_in": true
+  },
+  "consent": {
+    "opted_in_at": "2025-09-01",
+    "scope": [
+      "promotional_offers"
+    ]
+  }
+}

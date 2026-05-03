@@ -1,0 +1,15 @@
+{
+  "id": "trg_081_chronic_refill_due_m_011_dr_sameer_dent",
+  "scope": "customer",
+  "kind": "chronic_refill_due",
+  "source": "internal",
+  "merchant_id": "m_011_dr_sameer_dentist_bangalore",
+  "customer_id": "c_044_vivaan_for_m_011_dr_sameer_dentist_bangalore",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "chronic_refill_due"
+  },
+  "urgency": 2,
+  "suppression_key": "chronic_refill_due:m_011_dr_sameer_dentist_bangalore:gen_81",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

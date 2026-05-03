@@ -1,0 +1,28 @@
+{
+  "customer_id": "c_015_anonymous_for_m010",
+  "merchant_id": "m_010_sunrisepharm_pharmacy_lucknow",
+  "identity": {
+    "name": "(walk-in, no profile)",
+    "phone_redacted": null,
+    "language_pref": "hi",
+    "age_band": "unknown"
+  },
+  "relationship": {
+    "first_visit": "2026-04-15",
+    "last_visit": "2026-04-15",
+    "visits_total": 1,
+    "services_received": [
+      "walk_in_otc"
+    ],
+    "lifetime_value": 240
+  },
+  "state": "new",
+  "preferences": {
+    "channel": "none_recorded",
+    "reminder_opt_in": false
+  },
+  "consent": {
+    "opted_in_at": null,
+    "scope": []
+  }
+}

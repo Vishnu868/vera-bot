@@ -1,0 +1,28 @@
+{
+  "customer_id": "c_125_aarav_for_m_032_mukesh_restaurant_pune",
+  "merchant_id": "m_032_mukesh_restaurant_pune",
+  "identity": {
+    "name": "Aarav",
+    "phone_redacted": "<phone>",
+    "language_pref": "hi",
+    "age_band": "20-25"
+  },
+  "relationship": {
+    "first_visit": "2025-09-01",
+    "last_visit": "2026-04-01",
+    "visits_total": 3,
+    "services_received": [],
+    "lifetime_value": 3135
+  },
+  "state": "active",
+  "preferences": {
+    "channel": "whatsapp",
+    "reminder_opt_in": true
+  },
+  "consent": {
+    "opted_in_at": "2025-09-01",
+    "scope": [
+      "promotional_offers"
+    ]
+  }
+}

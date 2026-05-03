@@ -1,0 +1,15 @@
+{
+  "id": "trg_099_curious_ask_due_m_048_vinod_pharmaci",
+  "scope": "merchant",
+  "kind": "curious_ask_due",
+  "source": "internal",
+  "merchant_id": "m_048_vinod_pharmacie_mumbai",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "curious_ask_due"
+  },
+  "urgency": 1,
+  "suppression_key": "curious_ask_due:m_048_vinod_pharmacie_mumbai:gen_99",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

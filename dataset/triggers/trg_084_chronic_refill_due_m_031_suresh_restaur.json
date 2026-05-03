@@ -1,0 +1,15 @@
+{
+  "id": "trg_084_chronic_refill_due_m_031_suresh_restaur",
+  "scope": "customer",
+  "kind": "chronic_refill_due",
+  "source": "internal",
+  "merchant_id": "m_031_suresh_restaurant_jaipur",
+  "customer_id": "c_122_anika_for_m_031_suresh_restaurant_jaipur",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "chronic_refill_due"
+  },
+  "urgency": 2,
+  "suppression_key": "chronic_refill_due:m_031_suresh_restaurant_jaipur:gen_84",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

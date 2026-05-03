@@ -1,0 +1,15 @@
+{
+  "id": "trg_075_customer_lapsed_soft_m_048_vinod_pharmaci",
+  "scope": "customer",
+  "kind": "customer_lapsed_soft",
+  "source": "internal",
+  "merchant_id": "m_048_vinod_pharmacie_mumbai",
+  "customer_id": "c_189_tara_for_m_048_vinod_pharmacie_mumbai",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "customer_lapsed_soft"
+  },
+  "urgency": 3,
+  "suppression_key": "customer_lapsed_soft:m_048_vinod_pharmacie_mumbai:gen_75",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

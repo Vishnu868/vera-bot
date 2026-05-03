@@ -1,0 +1,15 @@
+{
+  "id": "trg_060_competitor_opened_m_041_akash_gym_hyde",
+  "scope": "merchant",
+  "kind": "competitor_opened",
+  "source": "external",
+  "merchant_id": "m_041_akash_gym_hyderabad",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "competitor_opened"
+  },
+  "urgency": 2,
+  "suppression_key": "competitor_opened:m_041_akash_gym_hyderabad:gen_60",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

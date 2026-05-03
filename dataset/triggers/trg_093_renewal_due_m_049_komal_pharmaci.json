@@ -1,0 +1,15 @@
+{
+  "id": "trg_093_renewal_due_m_049_komal_pharmaci",
+  "scope": "merchant",
+  "kind": "renewal_due",
+  "source": "internal",
+  "merchant_id": "m_049_komal_pharmacie_lucknow",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "renewal_due"
+  },
+  "urgency": 4,
+  "suppression_key": "renewal_due:m_049_komal_pharmacie_lucknow:gen_93",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

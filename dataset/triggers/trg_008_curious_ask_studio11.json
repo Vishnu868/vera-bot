@@ -1,0 +1,15 @@
+{
+  "id": "trg_008_curious_ask_studio11",
+  "scope": "merchant",
+  "kind": "curious_ask_due",
+  "source": "internal",
+  "merchant_id": "m_003_studio11_salon_hyderabad",
+  "customer_id": null,
+  "payload": {
+    "ask_template": "what_service_in_demand_this_week",
+    "last_ask_at": null
+  },
+  "urgency": 1,
+  "suppression_key": "curious_ask:m_003:2026-W17",
+  "expires_at": "2026-05-03T00:00:00Z"
+}

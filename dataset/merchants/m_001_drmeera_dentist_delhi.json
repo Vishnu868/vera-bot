@@ -1,0 +1,90 @@
+{
+  "merchant_id": "m_001_drmeera_dentist_delhi",
+  "category_slug": "dentists",
+  "identity": {
+    "name": "Dr. Meera's Dental Clinic",
+    "city": "Delhi",
+    "locality": "Lajpat Nagar",
+    "place_id": "ChIJ_LAJPATNAGAR_DENTIST_001",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Meera",
+    "established_year": 2018
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 82,
+    "renewed_at": "2026-02-04"
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 2410,
+    "calls": 18,
+    "directions": 45,
+    "ctr": 0.021,
+    "leads": 9,
+    "delta_7d": {
+      "views_pct": 0.18,
+      "calls_pct": -0.05,
+      "ctr_pct": 0.02
+    }
+  },
+  "offers": [
+    {
+      "id": "o_meera_001",
+      "title": "Dental Cleaning @ ₹299",
+      "status": "active",
+      "started": "2026-03-01"
+    },
+    {
+      "id": "o_meera_002",
+      "title": "Deep Cleaning @ ₹499",
+      "status": "expired",
+      "ended": "2026-02-28"
+    }
+  ],
+  "conversation_history": [
+    {
+      "ts": "2026-04-24T10:12:00Z",
+      "from": "vera",
+      "body": "Profile audit done — your photos are 8/10, description complete, but Google posts are stale (last post 22 days ago). Want me to draft 3 posts you can review?",
+      "engagement": "merchant_replied"
+    },
+    {
+      "ts": "2026-04-24T10:18:00Z",
+      "from": "merchant",
+      "body": "Yes please, focus on whitening and aligners",
+      "engagement": "intent_action"
+    }
+  ],
+  "customer_aggregate": {
+    "total_unique_ytd": 540,
+    "lapsed_180d_plus": 78,
+    "retention_6mo_pct": 0.38,
+    "high_risk_adult_count": 124
+  },
+  "signals": [
+    "stale_posts:22d",
+    "ctr_below_peer_median",
+    "high_risk_adult_cohort",
+    "engaged_in_last_48h"
+  ],
+  "review_themes": [
+    {
+      "theme": "wait_time",
+      "sentiment": "neg",
+      "occurrences_30d": 3,
+      "common_quote": "had to wait 30 min on Sunday afternoon"
+    },
+    {
+      "theme": "doctor_manner",
+      "sentiment": "pos",
+      "occurrences_30d": 5,
+      "common_quote": "Dr. Meera explains everything patiently"
+    }
+  ]
+}

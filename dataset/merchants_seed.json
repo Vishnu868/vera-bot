@@ -1,0 +1,314 @@
+{
+  "_README": "10 representative MerchantContexts. The generator (generate_dataset.py) expands these to 50 total (10/category) by varying identity + perf numbers deterministically.",
+  "merchants": [
+    {
+      "merchant_id": "m_001_drmeera_dentist_delhi",
+      "category_slug": "dentists",
+      "identity": {
+        "name": "Dr. Meera's Dental Clinic",
+        "city": "Delhi",
+        "locality": "Lajpat Nagar",
+        "place_id": "ChIJ_LAJPATNAGAR_DENTIST_001",
+        "verified": true,
+        "languages": ["en", "hi"],
+        "owner_first_name": "Meera",
+        "established_year": 2018
+      },
+      "subscription": { "status": "active", "plan": "Pro", "days_remaining": 82, "renewed_at": "2026-02-04" },
+      "performance": {
+        "window_days": 30,
+        "views": 2410, "calls": 18, "directions": 45, "ctr": 0.021, "leads": 9,
+        "delta_7d": { "views_pct": 0.18, "calls_pct": -0.05, "ctr_pct": 0.02 }
+      },
+      "offers": [
+        { "id": "o_meera_001", "title": "Dental Cleaning @ ₹299", "status": "active", "started": "2026-03-01" },
+        { "id": "o_meera_002", "title": "Deep Cleaning @ ₹499", "status": "expired", "ended": "2026-02-28" }
+      ],
+      "conversation_history": [
+        { "ts": "2026-04-24T10:12:00Z", "from": "vera", "body": "Profile audit done — your photos are 8/10, description complete, but Google posts are stale (last post 22 days ago). Want me to draft 3 posts you can review?", "engagement": "merchant_replied" },
+        { "ts": "2026-04-24T10:18:00Z", "from": "merchant", "body": "Yes please, focus on whitening and aligners", "engagement": "intent_action" }
+      ],
+      "customer_aggregate": { "total_unique_ytd": 540, "lapsed_180d_plus": 78, "retention_6mo_pct": 0.38, "high_risk_adult_count": 124 },
+      "signals": ["stale_posts:22d", "ctr_below_peer_median", "high_risk_adult_cohort", "engaged_in_last_48h"],
+      "review_themes": [
+        { "theme": "wait_time", "sentiment": "neg", "occurrences_30d": 3, "common_quote": "had to wait 30 min on Sunday afternoon" },
+        { "theme": "doctor_manner", "sentiment": "pos", "occurrences_30d": 5, "common_quote": "Dr. Meera explains everything patiently" }
+      ]
+    },
+    {
+      "merchant_id": "m_002_bharat_dentist_mumbai",
+      "category_slug": "dentists",
+      "identity": {
+        "name": "Bharat Dental Care",
+        "city": "Mumbai",
+        "locality": "Andheri West",
+        "place_id": "ChIJ_ANDHERI_DENTIST_002",
+        "verified": false,
+        "languages": ["en", "hi", "mr"],
+        "owner_first_name": "Bharat",
+        "established_year": 2010
+      },
+      "subscription": { "status": "active", "plan": "Pro", "days_remaining": 12, "renewed_at": "2025-04-26" },
+      "performance": {
+        "window_days": 30,
+        "views": 980, "calls": 4, "directions": 18, "ctr": 0.018, "leads": 2,
+        "delta_7d": { "views_pct": -0.22, "calls_pct": -0.50, "ctr_pct": -0.10 }
+      },
+      "offers": [],
+      "conversation_history": [
+        { "ts": "2026-04-10T11:00:00Z", "from": "vera", "body": "Subscription expires in 16 days — Bharat Dental Care...", "engagement": "merchant_no_reply" }
+      ],
+      "customer_aggregate": { "total_unique_ytd": 220, "lapsed_180d_plus": 95, "retention_6mo_pct": 0.18 },
+      "signals": ["renewal_due_soon:12d", "perf_dip_severe", "unverified_gbp", "dormant_with_vera_14d", "no_active_offers"],
+      "review_themes": []
+    },
+    {
+      "merchant_id": "m_003_studio11_salon_hyderabad",
+      "category_slug": "salons",
+      "identity": {
+        "name": "Studio11 Family Salon",
+        "city": "Hyderabad",
+        "locality": "Kapra",
+        "place_id": "ChIJ_KAPRA_SALON_003",
+        "verified": true,
+        "languages": ["en", "hi", "te"],
+        "owner_first_name": "Lakshmi",
+        "established_year": 2019
+      },
+      "subscription": { "status": "active", "plan": "Pro", "days_remaining": 145 },
+      "performance": {
+        "window_days": 30,
+        "views": 4980, "calls": 62, "directions": 142, "ctr": 0.048, "leads": 38,
+        "delta_7d": { "views_pct": 0.14, "calls_pct": 0.20, "ctr_pct": 0.05 }
+      },
+      "offers": [
+        { "id": "o_studio11_001", "title": "Haircut @ ₹99", "status": "active", "started": "2026-03-01" },
+        { "id": "o_studio11_002", "title": "Hair Spa @ ₹499", "status": "active", "started": "2026-03-15" }
+      ],
+      "conversation_history": [
+        { "ts": "2026-04-22T15:00:00Z", "from": "vera", "body": "Spotted: bridal-trial searches in Kapra +28% this week. Want me to push your bridal package as a GBP post?", "engagement": "merchant_no_reply" }
+      ],
+      "customer_aggregate": { "total_unique_ytd": 1150, "lapsed_90d_plus": 220, "retention_3mo_pct": 0.62 },
+      "signals": ["high_engagement", "above_peer_median_calls", "growing_views_7d"],
+      "review_themes": [
+        { "theme": "stylist_skill", "sentiment": "pos", "occurrences_30d": 12, "common_quote": "Priya is the best for balayage" },
+        { "theme": "saturday_wait", "sentiment": "neg", "occurrences_30d": 2 }
+      ]
+    },
+    {
+      "merchant_id": "m_004_glamour_salon_pune",
+      "category_slug": "salons",
+      "identity": {
+        "name": "Glamour Lounge Spa & Salon",
+        "city": "Pune",
+        "locality": "Aundh",
+        "place_id": "ChIJ_AUNDH_SALON_004",
+        "verified": true,
+        "languages": ["en", "hi", "mr"],
+        "owner_first_name": "Anjali",
+        "established_year": 2021
+      },
+      "subscription": { "status": "expired", "plan": "Pro", "days_since_expiry": 38 },
+      "performance": {
+        "window_days": 30,
+        "views": 1200, "calls": 8, "directions": 22, "ctr": 0.022, "leads": 3,
+        "delta_7d": { "views_pct": -0.12, "calls_pct": -0.30, "ctr_pct": -0.04 }
+      },
+      "offers": [],
+      "conversation_history": [
+        { "ts": "2026-03-19T14:00:00Z", "from": "vera", "body": "Subscription expired. Profile maintenance paused...", "engagement": "merchant_no_reply" }
+      ],
+      "customer_aggregate": { "total_unique_ytd": 380, "lapsed_90d_plus": 180, "retention_3mo_pct": 0.32 },
+      "signals": ["winback_eligible", "perf_dip_post_expiry", "dormant_with_vera_38d"],
+      "review_themes": []
+    },
+    {
+      "merchant_id": "m_005_pizzajunction_restaurant_delhi",
+      "category_slug": "restaurants",
+      "identity": {
+        "name": "SK Pizza Junction",
+        "city": "Delhi",
+        "locality": "Sant Nagar",
+        "place_id": "ChIJ_SANTNAGAR_RESTAURANT_005",
+        "verified": false,
+        "languages": ["en", "hi"],
+        "owner_first_name": "Suresh",
+        "established_year": 2022
+      },
+      "subscription": { "status": "trial", "plan": "Trial", "days_remaining": 7 },
+      "performance": {
+        "window_days": 30,
+        "views": 2200, "calls": 12, "directions": 38, "ctr": 0.020, "leads": 4,
+        "delta_7d": { "views_pct": 0.08, "calls_pct": 0.10 }
+      },
+      "offers": [
+        { "id": "o_skpz_001", "title": "Buy 1 Pizza Get 1 Free (Tue-Thu)", "status": "active", "started": "2026-04-15" }
+      ],
+      "conversation_history": [
+        { "ts": "2026-04-25T18:00:00Z", "from": "vera", "body": "Quick check — IPL match nights driving any extra footfall?", "engagement": "merchant_no_reply" }
+      ],
+      "customer_aggregate": { "total_unique_ytd": 0, "delivery_orders_30d": 180, "dine_in_orders_30d": 95 },
+      "signals": ["new_merchant", "trial_ending_soon", "ipl_eligible_locality"],
+      "review_themes": [
+        { "theme": "delivery_late", "sentiment": "neg", "occurrences_30d": 4 },
+        { "theme": "pizza_quality", "sentiment": "pos", "occurrences_30d": 8 }
+      ]
+    },
+    {
+      "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+      "category_slug": "restaurants",
+      "identity": {
+        "name": "Mylari South Indian Cafe",
+        "city": "Bangalore",
+        "locality": "Indiranagar",
+        "place_id": "ChIJ_INDIRANAGAR_RESTAURANT_006",
+        "verified": true,
+        "languages": ["en", "hi", "kn"],
+        "owner_first_name": "Suresh",
+        "established_year": 2014
+      },
+      "subscription": { "status": "active", "plan": "Pro", "days_remaining": 240 },
+      "performance": {
+        "window_days": 30,
+        "views": 12400, "calls": 88, "directions": 320, "ctr": 0.032, "leads": 145,
+        "delta_7d": { "views_pct": 0.05, "calls_pct": 0.02 }
+      },
+      "offers": [
+        { "id": "o_mylari_001", "title": "Weekday Lunch Thali @ ₹149", "status": "active", "started": "2026-01-10" }
+      ],
+      "conversation_history": [
+        { "ts": "2026-04-25T11:00:00Z", "from": "vera", "body": "Your weekday thali is doing well — 18 orders/day avg. Want me to add a corporate-bulk version?", "engagement": "merchant_replied" },
+        { "ts": "2026-04-25T11:30:00Z", "from": "merchant", "body": "Yes good idea, what would it look like", "engagement": "intent_question" }
+      ],
+      "customer_aggregate": { "total_unique_ytd": 4200, "repeat_customer_pct": 0.42, "delivery_share_pct": 0.45 },
+      "signals": ["high_volume", "stable_growth", "engaged_in_last_24h"],
+      "review_themes": [
+        { "theme": "thali_quality", "sentiment": "pos", "occurrences_30d": 22 },
+        { "theme": "weekend_busy", "sentiment": "neg", "occurrences_30d": 3 }
+      ]
+    },
+    {
+      "merchant_id": "m_007_powerhouse_gym_bangalore",
+      "category_slug": "gyms",
+      "identity": {
+        "name": "PowerHouse Fitness",
+        "city": "Bangalore",
+        "locality": "HSR Layout",
+        "place_id": "ChIJ_HSR_GYM_007",
+        "verified": true,
+        "languages": ["en", "hi", "kn"],
+        "owner_first_name": "Karthik",
+        "established_year": 2020
+      },
+      "subscription": { "status": "active", "plan": "Pro", "days_remaining": 95 },
+      "performance": {
+        "window_days": 30,
+        "views": 1480, "calls": 22, "directions": 48, "ctr": 0.052, "leads": 14,
+        "delta_7d": { "views_pct": -0.30, "calls_pct": -0.35 }
+      },
+      "offers": [
+        { "id": "o_powerhouse_001", "title": "3 FREE Trial Classes", "status": "active", "started": "2026-01-01" }
+      ],
+      "conversation_history": [],
+      "customer_aggregate": { "total_active_members": 245, "monthly_churn_pct": 0.10, "trial_to_paid_pct": 0.28 },
+      "signals": ["seasonal_dip_apr_may", "above_peer_ctr", "no_recent_post"],
+      "review_themes": [
+        { "theme": "equipment_quality", "sentiment": "pos", "occurrences_30d": 7 },
+        { "theme": "morning_crowd", "sentiment": "neg", "occurrences_30d": 4 }
+      ]
+    },
+    {
+      "merchant_id": "m_008_zenyoga_gym_chennai",
+      "category_slug": "gyms",
+      "identity": {
+        "name": "Zen Yoga Studio",
+        "city": "Chennai",
+        "locality": "Mylapore",
+        "place_id": "ChIJ_MYLAPORE_GYM_008",
+        "verified": true,
+        "languages": ["en", "ta", "hi"],
+        "owner_first_name": "Padma",
+        "established_year": 2017
+      },
+      "subscription": { "status": "active", "plan": "Pro", "days_remaining": 180 },
+      "performance": {
+        "window_days": 30,
+        "views": 880, "calls": 18, "directions": 38, "ctr": 0.062, "leads": 12,
+        "delta_7d": { "views_pct": 0.10, "calls_pct": 0.15 }
+      },
+      "offers": [
+        { "id": "o_zen_001", "title": "First Month @ ₹499", "status": "active", "started": "2026-03-01" },
+        { "id": "o_zen_002", "title": "Free Body Composition Analysis", "status": "active", "started": "2026-03-01" }
+      ],
+      "conversation_history": [
+        { "ts": "2026-04-23T09:00:00Z", "from": "merchant", "body": "Hi I want to add a kids yoga program — what should it look like?", "engagement": "intent_planning" },
+        { "ts": "2026-04-23T09:05:00Z", "from": "vera", "body": "Great idea — kids yoga summer camps are peaking now. Suggest 4-week program, 3 classes/week, age 7-12, ₹2,499. Want me to draft the GBP post + Insta carousel?", "engagement": "merchant_replied" }
+      ],
+      "customer_aggregate": { "total_active_members": 95, "monthly_churn_pct": 0.05, "trial_to_paid_pct": 0.55 },
+      "signals": ["high_retention", "active_planning", "boutique_segment"],
+      "review_themes": [
+        { "theme": "instructor_quality", "sentiment": "pos", "occurrences_30d": 9 },
+        { "theme": "small_classes", "sentiment": "pos", "occurrences_30d": 6 }
+      ]
+    },
+    {
+      "merchant_id": "m_009_apollo_pharmacy_jaipur",
+      "category_slug": "pharmacies",
+      "identity": {
+        "name": "Apollo Health Plus Pharmacy",
+        "city": "Jaipur",
+        "locality": "Malviya Nagar",
+        "place_id": "ChIJ_MALVIYA_PHARMACY_009",
+        "verified": true,
+        "languages": ["en", "hi"],
+        "owner_first_name": "Ramesh",
+        "established_year": 2016
+      },
+      "subscription": { "status": "active", "plan": "Pro", "days_remaining": 60 },
+      "performance": {
+        "window_days": 30,
+        "views": 1850, "calls": 38, "directions": 95, "ctr": 0.045, "leads": 24,
+        "delta_7d": { "views_pct": 0.06, "calls_pct": 0.08 }
+      },
+      "offers": [
+        { "id": "o_apollo_001", "title": "Free Home Delivery > ₹499", "status": "active", "started": "2026-01-01" },
+        { "id": "o_apollo_002", "title": "Senior Citizen 15% OFF", "status": "active", "started": "2026-01-01" }
+      ],
+      "conversation_history": [
+        { "ts": "2026-04-24T08:00:00Z", "from": "vera", "body": "Heads up: voluntary recall on atorvastatin batches X/Y by Mfr Z. Want the customer list filtered for that molecule?", "engagement": "merchant_replied" },
+        { "ts": "2026-04-24T08:30:00Z", "from": "merchant", "body": "Yes send me the list please", "engagement": "intent_action" }
+      ],
+      "customer_aggregate": { "total_unique_ytd": 1820, "repeat_customer_pct": 0.68, "chronic_rx_count": 240 },
+      "signals": ["above_peer_calls", "compliance_aware", "high_repeat_rate"],
+      "review_themes": [
+        { "theme": "delivery_speed", "sentiment": "pos", "occurrences_30d": 11 },
+        { "theme": "medicine_availability", "sentiment": "pos", "occurrences_30d": 8 }
+      ]
+    },
+    {
+      "merchant_id": "m_010_sunrisepharm_pharmacy_lucknow",
+      "category_slug": "pharmacies",
+      "identity": {
+        "name": "Sunrise Medicos",
+        "city": "Lucknow",
+        "locality": "Gomti Nagar",
+        "place_id": "ChIJ_GOMTINAGAR_PHARMACY_010",
+        "verified": false,
+        "languages": ["en", "hi"],
+        "owner_first_name": "Vikas",
+        "established_year": 2020
+      },
+      "subscription": { "status": "active", "plan": "Basic", "days_remaining": 200 },
+      "performance": {
+        "window_days": 30,
+        "views": 720, "calls": 14, "directions": 32, "ctr": 0.041, "leads": 8,
+        "delta_7d": { "views_pct": 0.02, "calls_pct": 0.05 }
+      },
+      "offers": [],
+      "conversation_history": [],
+      "customer_aggregate": { "total_unique_ytd": 540, "repeat_customer_pct": 0.45, "chronic_rx_count": 60 },
+      "signals": ["unverified_gbp", "no_active_offers", "no_recent_conversation", "delivery_not_set_up"],
+      "review_themes": []
+    }
+  ]
+}

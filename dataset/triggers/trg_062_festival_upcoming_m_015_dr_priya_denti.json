@@ -1,0 +1,15 @@
+{
+  "id": "trg_062_festival_upcoming_m_015_dr_priya_denti",
+  "scope": "merchant",
+  "kind": "festival_upcoming",
+  "source": "external",
+  "merchant_id": "m_015_dr_priya_dentist_chandigarh",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "festival_upcoming"
+  },
+  "urgency": 1,
+  "suppression_key": "festival_upcoming:m_015_dr_priya_dentist_chandigarh:gen_62",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

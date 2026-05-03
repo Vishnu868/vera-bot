@@ -1,0 +1,21 @@
+{
+  "id": "trg_020_summer_demand_shift",
+  "scope": "merchant",
+  "kind": "category_seasonal",
+  "source": "external",
+  "merchant_id": "m_009_apollo_pharmacy_jaipur",
+  "customer_id": null,
+  "payload": {
+    "season": "summer_2026",
+    "trends": [
+      "ORS_demand_+40",
+      "sunscreen_demand_+38",
+      "antifungal_demand_+45",
+      "cold_cough_demand_-60"
+    ],
+    "shelf_action_recommended": true
+  },
+  "urgency": 2,
+  "suppression_key": "season:summer:m_009:2026",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

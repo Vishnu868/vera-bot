@@ -1,0 +1,15 @@
+{
+  "id": "trg_085_chronic_refill_due_m_030_sandeep_restau",
+  "scope": "customer",
+  "kind": "chronic_refill_due",
+  "source": "internal",
+  "merchant_id": "m_030_sandeep_restaurant_chandigarh",
+  "customer_id": "c_120_aarav_for_m_030_sandeep_restaurant_chandigarh",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "chronic_refill_due"
+  },
+  "urgency": 2,
+  "suppression_key": "chronic_refill_due:m_030_sandeep_restaurant_chandigarh:gen_85",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

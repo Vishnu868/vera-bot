@@ -1,0 +1,72 @@
+{
+  "merchant_id": "m_005_pizzajunction_restaurant_delhi",
+  "category_slug": "restaurants",
+  "identity": {
+    "name": "SK Pizza Junction",
+    "city": "Delhi",
+    "locality": "Sant Nagar",
+    "place_id": "ChIJ_SANTNAGAR_RESTAURANT_005",
+    "verified": false,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Suresh",
+    "established_year": 2022
+  },
+  "subscription": {
+    "status": "trial",
+    "plan": "Trial",
+    "days_remaining": 7
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 2200,
+    "calls": 12,
+    "directions": 38,
+    "ctr": 0.02,
+    "leads": 4,
+    "delta_7d": {
+      "views_pct": 0.08,
+      "calls_pct": 0.1
+    }
+  },
+  "offers": [
+    {
+      "id": "o_skpz_001",
+      "title": "Buy 1 Pizza Get 1 Free (Tue-Thu)",
+      "status": "active",
+      "started": "2026-04-15"
+    }
+  ],
+  "conversation_history": [
+    {
+      "ts": "2026-04-25T18:00:00Z",
+      "from": "vera",
+      "body": "Quick check — IPL match nights driving any extra footfall?",
+      "engagement": "merchant_no_reply"
+    }
+  ],
+  "customer_aggregate": {
+    "total_unique_ytd": 0,
+    "delivery_orders_30d": 180,
+    "dine_in_orders_30d": 95
+  },
+  "signals": [
+    "new_merchant",
+    "trial_ending_soon",
+    "ipl_eligible_locality"
+  ],
+  "review_themes": [
+    {
+      "theme": "delivery_late",
+      "sentiment": "neg",
+      "occurrences_30d": 4
+    },
+    {
+      "theme": "pizza_quality",
+      "sentiment": "pos",
+      "occurrences_30d": 8
+    }
+  ]
+}

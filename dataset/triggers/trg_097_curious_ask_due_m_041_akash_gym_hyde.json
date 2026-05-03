@@ -1,0 +1,15 @@
+{
+  "id": "trg_097_curious_ask_due_m_041_akash_gym_hyde",
+  "scope": "merchant",
+  "kind": "curious_ask_due",
+  "source": "internal",
+  "merchant_id": "m_041_akash_gym_hyderabad",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "curious_ask_due"
+  },
+  "urgency": 1,
+  "suppression_key": "curious_ask_due:m_041_akash_gym_hyderabad:gen_97",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

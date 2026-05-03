@@ -1,0 +1,42 @@
+{
+  "merchant_id": "m_043_komal_pharmacie_ahmedabad",
+  "category_slug": "pharmacies",
+  "identity": {
+    "name": "Daily Care Medicos",
+    "city": "Ahmedabad",
+    "locality": "Naranpura",
+    "place_id": "ChIJ_NARANPURA_PHARMACIES_043",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Komal",
+    "established_year": 2021
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 270,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 4622,
+    "calls": 25,
+    "directions": 71,
+    "ctr": 0.03,
+    "leads": 8,
+    "delta_7d": {
+      "views_pct": 0.07,
+      "calls_pct": -0.02
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 1391
+  },
+  "signals": [],
+  "review_themes": []
+}

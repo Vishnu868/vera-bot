@@ -1,0 +1,18 @@
+{
+  "id": "trg_014_seasonal_acquisition_dip_powerhouse",
+  "scope": "merchant",
+  "kind": "seasonal_perf_dip",
+  "source": "internal",
+  "merchant_id": "m_007_powerhouse_gym_bangalore",
+  "customer_id": null,
+  "payload": {
+    "metric": "views",
+    "delta_pct": -0.3,
+    "window": "7d",
+    "is_expected_seasonal": true,
+    "season_note": "post_resolution_window_apr_jun"
+  },
+  "urgency": 1,
+  "suppression_key": "seasonal_dip:m_007:2026-Q2",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

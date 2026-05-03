@@ -1,0 +1,16 @@
+{
+  "id": "trg_009_winback_glamour",
+  "scope": "merchant",
+  "kind": "winback_eligible",
+  "source": "internal",
+  "merchant_id": "m_004_glamour_salon_pune",
+  "customer_id": null,
+  "payload": {
+    "days_since_expiry": 38,
+    "perf_dip_pct": -0.3,
+    "lapsed_customers_added_since_expiry": 24
+  },
+  "urgency": 2,
+  "suppression_key": "winback:m_004_glamour_salon_pune",
+  "expires_at": "2026-06-15T00:00:00Z"
+}

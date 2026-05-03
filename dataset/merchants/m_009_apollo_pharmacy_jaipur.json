@@ -1,0 +1,84 @@
+{
+  "merchant_id": "m_009_apollo_pharmacy_jaipur",
+  "category_slug": "pharmacies",
+  "identity": {
+    "name": "Apollo Health Plus Pharmacy",
+    "city": "Jaipur",
+    "locality": "Malviya Nagar",
+    "place_id": "ChIJ_MALVIYA_PHARMACY_009",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Ramesh",
+    "established_year": 2016
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 60
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 1850,
+    "calls": 38,
+    "directions": 95,
+    "ctr": 0.045,
+    "leads": 24,
+    "delta_7d": {
+      "views_pct": 0.06,
+      "calls_pct": 0.08
+    }
+  },
+  "offers": [
+    {
+      "id": "o_apollo_001",
+      "title": "Free Home Delivery > ₹499",
+      "status": "active",
+      "started": "2026-01-01"
+    },
+    {
+      "id": "o_apollo_002",
+      "title": "Senior Citizen 15% OFF",
+      "status": "active",
+      "started": "2026-01-01"
+    }
+  ],
+  "conversation_history": [
+    {
+      "ts": "2026-04-24T08:00:00Z",
+      "from": "vera",
+      "body": "Heads up: voluntary recall on atorvastatin batches X/Y by Mfr Z. Want the customer list filtered for that molecule?",
+      "engagement": "merchant_replied"
+    },
+    {
+      "ts": "2026-04-24T08:30:00Z",
+      "from": "merchant",
+      "body": "Yes send me the list please",
+      "engagement": "intent_action"
+    }
+  ],
+  "customer_aggregate": {
+    "total_unique_ytd": 1820,
+    "repeat_customer_pct": 0.68,
+    "chronic_rx_count": 240
+  },
+  "signals": [
+    "above_peer_calls",
+    "compliance_aware",
+    "high_repeat_rate"
+  ],
+  "review_themes": [
+    {
+      "theme": "delivery_speed",
+      "sentiment": "pos",
+      "occurrences_30d": 11
+    },
+    {
+      "theme": "medicine_availability",
+      "sentiment": "pos",
+      "occurrences_30d": 8
+    }
+  ]
+}

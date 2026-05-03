@@ -1,0 +1,227 @@
+{
+  "slug": "pharmacies",
+  "display_name": "Pharmacies & Medical Stores",
+  "voice": {
+    "tone": "trustworthy_precise",
+    "register": "neighbourhood_pharmacist",
+    "code_mix": "hindi_english_natural",
+    "vocab_allowed": [
+      "OTC",
+      "schedule H",
+      "schedule X",
+      "generic",
+      "branded",
+      "molecule",
+      "MRP",
+      "expiry",
+      "batch",
+      "PCR retail",
+      "pharmacist counsel"
+    ],
+    "vocab_taboo": [
+      "miracle cure",
+      "guaranteed result",
+      "100% safe",
+      "doctor recommended (without disclosure)",
+      "best price (without supporting data)"
+    ],
+    "salutation_examples": [
+      "Hi {pharmacist_name}",
+      "{pharmacy_name} team"
+    ],
+    "tone_examples": [
+      "Quick check — your repeat-prescription customer count is up 18% this month",
+      "Heads up: a generic alternative for {molecule} just got approved — likely 30% lower MRP"
+    ]
+  },
+  "offer_catalog": [
+    {
+      "id": "phr_001",
+      "title": "Flat 20% OFF on medicines",
+      "value": "20%",
+      "audience": "new_user",
+      "type": "percentage_discount"
+    },
+    {
+      "id": "phr_002",
+      "title": "Free Home Delivery > ₹499",
+      "value": "free_delivery",
+      "audience": "new_user",
+      "type": "free_addon"
+    },
+    {
+      "id": "phr_003",
+      "title": "Annual Health Card @ ₹399 (15% off all year)",
+      "value": "399",
+      "audience": "repeat_user",
+      "type": "membership"
+    },
+    {
+      "id": "phr_004",
+      "title": "Free BP & Sugar Check",
+      "value": "0",
+      "audience": "all",
+      "type": "free_service"
+    },
+    {
+      "id": "phr_005",
+      "title": "Senior Citizen 15% OFF (60+ age)",
+      "value": "15%",
+      "audience": "senior",
+      "type": "percentage_discount"
+    },
+    {
+      "id": "phr_006",
+      "title": "Diabetic Care Combo: Glucometer + 50 strips @ ₹999",
+      "value": "999",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "phr_007",
+      "title": "Free Pharmacist Consultation (10 min)",
+      "value": "0",
+      "audience": "all",
+      "type": "free_service"
+    },
+    {
+      "id": "phr_008",
+      "title": "Subscription refill reminder + delivery (chronic Rx)",
+      "value": "0",
+      "audience": "repeat_user",
+      "type": "free_service"
+    }
+  ],
+  "peer_stats": {
+    "scope": "metro_neighbourhood_pharmacies_2026",
+    "avg_rating": 4.6,
+    "avg_review_count": 42,
+    "avg_views_30d": 1400,
+    "avg_calls_30d": 22,
+    "avg_directions_30d": 58,
+    "avg_ctr": 0.038,
+    "avg_photos": 6,
+    "avg_post_freq_days": 21,
+    "delivery_share_pct": 0.35,
+    "repeat_customer_pct": 0.62
+  },
+  "digest": [
+    {
+      "id": "d_2026W17_generic_metformin",
+      "kind": "supply",
+      "title": "Generic metformin SR price drop after 4 new approvals",
+      "source": "DGCI release Apr 2026",
+      "summary": "Three major Indian players got SR-formulation approval; wholesale price down 22% effective next month. Branded retail likely flat for now (margin will absorb).",
+      "actionable": "Audit your shelf — switching diabetic refills to generic now saves the patient ~₹120/month and improves your repeat-buy stickiness"
+    },
+    {
+      "id": "d_2026W17_schedule_h1_compliance",
+      "kind": "compliance",
+      "title": "FDA enforcement audit on Schedule H1 antibiotic dispensing — Q2",
+      "source": "FDA India inspector circular Apr 2026",
+      "summary": "Tighter Q2 audit cycle on H1 antibiotic dispensing — proper Rx capture, register entries, batch tracking. ₹50,000+ penalties for missing entries.",
+      "actionable": "Audit your H1 register; ensure pharmacist signature + Rx photocopy on file for every dispense in last 90 days"
+    },
+    {
+      "id": "d_2026W17_summer_demand",
+      "kind": "seasonal",
+      "title": "Summer demand shift: ORS, sunscreen, anti-fungal up 40%; cold/cough down 60%",
+      "source": "Multi-pharmacy aggregate Apr 2026",
+      "summary": "Standard April-Jun pattern: ORS sachets, sunscreen, anti-fungal creams, deodorant peak; respiratory medication tapers off. Restock + shelf-rearrange.",
+      "actionable": "Move ORS + sunscreen to counter visibility; cold/cough to back shelf"
+    },
+    {
+      "id": "d_2026W17_chronic_subscription",
+      "kind": "tech",
+      "title": "Chronic-Rx subscription retention 3.2x higher than walk-in",
+      "source": "magicpin pharmacy data Apr 2026",
+      "summary": "Pharmacies with WhatsApp-based refill reminder + auto-delivery for chronic patients see 88% 12-month retention vs 27% for walk-in-only chronic customers.",
+      "actionable": "Set up the WhatsApp reminder — covers diabetic, hypertensive, thyroid Rx"
+    },
+    {
+      "id": "d_2026W17_atorvastatin_recall",
+      "kind": "alert",
+      "title": "Voluntary recall: Specific atorvastatin batches by manufacturer X",
+      "source": "CDSCO alert Apr 2026",
+      "summary": "Two batches (numbers in alert) flagged for sub-potency. Customers should be informed; replacement available via distributor return chain. No safety risk for patients beyond suboptimal LDL control.",
+      "actionable": "Pull the batches; WhatsApp affected customers from your repeat-Rx list"
+    }
+  ],
+  "patient_content_library": [
+    {
+      "id": "pc_generic_branded",
+      "title": "Generic vs branded medicines — what's actually different?",
+      "channel": "whatsapp",
+      "length_seconds": 60,
+      "body": "The active molecule is identical and regulator-tested. Difference is in the binders, fillers, and brand markup. Generic is typically 40-60% cheaper. Two cases where brand may help: (1) very narrow-therapeutic-index drugs (some thyroid, blood thinners) where bioequivalence varies, (2) extended-release formulations. Otherwise, generic is the rational choice."
+    },
+    {
+      "id": "pc_storage",
+      "title": "Where to NOT store your medicines",
+      "channel": "whatsapp",
+      "length_seconds": 45,
+      "body": "Three places: (1) bathroom — humidity wrecks tablet integrity. (2) car glove box — temperature swings degrade most molecules in a month. (3) refrigerator door — temperature varies too much; use the main shelf if cold storage is needed. The kitchen at room temperature, away from sunlight, is best."
+    },
+    {
+      "id": "pc_summer_basics",
+      "title": "Summer first-aid: what every Indian household should have",
+      "channel": "whatsapp",
+      "length_seconds": 50,
+      "body": "Five items: ORS sachets (heat-stroke is sudden), broad-spectrum sunscreen SPF 50+ (apply 30 min before sun), anti-fungal cream (sweat triggers infections), Vaseline (chafing relief), and a thermometer. Skip energy drinks marketed as 'summer drinks' — sugar load is counterproductive when dehydrated."
+    }
+  ],
+  "seasonal_beats": [
+    {
+      "month_range": "Apr-Jun",
+      "note": "summer surge — ORS, sunscreen, anti-fungal, deodorant"
+    },
+    {
+      "month_range": "Jul-Aug",
+      "note": "monsoon — anti-bacterial, anti-fungal, immunity supplements peak"
+    },
+    {
+      "month_range": "Oct-Nov",
+      "note": "festival sweets → blood sugar spike — diabetic monitoring needs surge"
+    },
+    {
+      "month_range": "Dec-Jan",
+      "note": "respiratory peak — cough/cold/anti-allergic 2x baseline"
+    }
+  ],
+  "trend_signals": [
+    {
+      "query": "medicine home delivery",
+      "delta_yoy": 0.42,
+      "segment_age": "all",
+      "skew": "balanced"
+    },
+    {
+      "query": "generic medicine",
+      "delta_yoy": 0.34,
+      "segment_age": "30-65",
+      "skew": "balanced"
+    },
+    {
+      "query": "diabetes care kit",
+      "delta_yoy": 0.28,
+      "segment_age": "40-65",
+      "skew": "balanced"
+    },
+    {
+      "query": "blood pressure monitor",
+      "delta_yoy": 0.18,
+      "segment_age": "45-70",
+      "skew": "balanced"
+    }
+  ],
+  "regulatory_authorities": [
+    "CDSCO",
+    "State FDA",
+    "Drug Controller General of India (DCGI)"
+  ],
+  "professional_journals": [
+    "Pharmabiz",
+    "ChemistryView India",
+    "IPA Bulletin"
+  ]
+}

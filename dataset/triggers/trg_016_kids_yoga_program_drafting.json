@@ -1,0 +1,15 @@
+{
+  "id": "trg_016_kids_yoga_program_drafting",
+  "scope": "merchant",
+  "kind": "active_planning_intent",
+  "source": "internal",
+  "merchant_id": "m_008_zenyoga_gym_chennai",
+  "customer_id": null,
+  "payload": {
+    "intent_topic": "kids_yoga_summer_camp",
+    "merchant_last_message": "Hi I want to add a kids yoga program — what should it look like?"
+  },
+  "urgency": 4,
+  "suppression_key": "planning:m_008:kids_yoga:2026-W17",
+  "expires_at": "2026-04-30T00:00:00Z"
+}

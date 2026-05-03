@@ -1,0 +1,42 @@
+{
+  "merchant_id": "m_020_renu_salon_lucknow",
+  "category_slug": "salons",
+  "identity": {
+    "name": "Beauty Lounge by Renu",
+    "city": "Lucknow",
+    "locality": "Gomti Nagar",
+    "place_id": "ChIJ_GOMTI_NAGAR_SALONS_020",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Renu",
+    "established_year": 2015
+  },
+  "subscription": {
+    "status": "expired",
+    "plan": "Pro",
+    "days_remaining": 0,
+    "days_since_expiry": 41
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 2945,
+    "calls": 33,
+    "directions": 93,
+    "ctr": 0.051,
+    "leads": 29,
+    "delta_7d": {
+      "views_pct": 0.04,
+      "calls_pct": -0.18
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 1062
+  },
+  "signals": [],
+  "review_themes": []
+}

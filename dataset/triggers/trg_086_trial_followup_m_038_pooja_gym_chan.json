@@ -1,0 +1,15 @@
+{
+  "id": "trg_086_trial_followup_m_038_pooja_gym_chan",
+  "scope": "customer",
+  "kind": "trial_followup",
+  "source": "internal",
+  "merchant_id": "m_038_pooja_gym_chandigarh",
+  "customer_id": "c_149_myra_for_m_038_pooja_gym_chandigarh",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "trial_followup"
+  },
+  "urgency": 2,
+  "suppression_key": "trial_followup:m_038_pooja_gym_chandigarh:gen_86",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

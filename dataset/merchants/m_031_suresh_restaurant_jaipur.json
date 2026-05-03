@@ -1,0 +1,42 @@
+{
+  "merchant_id": "m_031_suresh_restaurant_jaipur",
+  "category_slug": "restaurants",
+  "identity": {
+    "name": "Madras Express",
+    "city": "Jaipur",
+    "locality": "Vaishali Nagar",
+    "place_id": "ChIJ_VAISHALI_NAGAR_RESTAURANTS_031",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Suresh",
+    "established_year": 2011
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 10,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 2467,
+    "calls": 18,
+    "directions": 50,
+    "ctr": 0.016,
+    "leads": 5,
+    "delta_7d": {
+      "views_pct": -0.2,
+      "calls_pct": -0.18
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 400
+  },
+  "signals": [],
+  "review_themes": []
+}

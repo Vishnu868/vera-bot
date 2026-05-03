@@ -1,0 +1,15 @@
+{
+  "id": "trg_028_research_digest_m_019_karim_salon_lu",
+  "scope": "merchant",
+  "kind": "research_digest",
+  "source": "external",
+  "merchant_id": "m_019_karim_salon_lucknow",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "research_digest"
+  },
+  "urgency": 1,
+  "suppression_key": "research_digest:m_019_karim_salon_lucknow:gen_28",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

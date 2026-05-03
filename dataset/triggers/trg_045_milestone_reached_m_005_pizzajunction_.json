@@ -1,0 +1,15 @@
+{
+  "id": "trg_045_milestone_reached_m_005_pizzajunction_",
+  "scope": "merchant",
+  "kind": "milestone_reached",
+  "source": "internal",
+  "merchant_id": "m_005_pizzajunction_restaurant_delhi",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "milestone_reached"
+  },
+  "urgency": 1,
+  "suppression_key": "milestone_reached:m_005_pizzajunction_restaurant_delhi:gen_45",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

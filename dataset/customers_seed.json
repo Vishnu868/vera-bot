@@ -1,0 +1,140 @@
+{
+  "_README": "15 representative CustomerContexts. The generator expands these to 200 by varying demographic + relationship state per merchant.",
+  "customers": [
+    {
+      "customer_id": "c_001_priya_for_m001",
+      "merchant_id": "m_001_drmeera_dentist_delhi",
+      "identity": { "name": "Priya", "phone_redacted": "<phone>", "language_pref": "hi-en mix", "age_band": "25-35" },
+      "relationship": { "first_visit": "2025-11-04", "last_visit": "2026-05-12", "visits_total": 4, "services_received": ["cleaning", "cleaning", "whitening", "cleaning"], "lifetime_value": 1696 },
+      "state": "lapsed_soft",
+      "preferences": { "preferred_slots": "weekday_evening", "channel": "whatsapp", "reminder_opt_in": true },
+      "consent": { "opted_in_at": "2025-11-04", "scope": ["recall_reminders", "appointment_reminders"] }
+    },
+    {
+      "customer_id": "c_002_rohit_for_m001",
+      "merchant_id": "m_001_drmeera_dentist_delhi",
+      "identity": { "name": "Rohit", "phone_redacted": "<phone>", "language_pref": "english", "age_band": "35-45" },
+      "relationship": { "first_visit": "2026-02-12", "last_visit": "2026-04-18", "visits_total": 2, "services_received": ["root_canal_consult", "root_canal_session_1"], "lifetime_value": 5500 },
+      "state": "active",
+      "preferences": { "preferred_slots": "saturday_morning", "channel": "whatsapp", "reminder_opt_in": true },
+      "consent": { "opted_in_at": "2026-02-12", "scope": ["recall_reminders", "appointment_reminders", "treatment_followup"] }
+    },
+    {
+      "customer_id": "c_003_aanya_for_m001",
+      "merchant_id": "m_001_drmeera_dentist_delhi",
+      "identity": { "name": "Aanya (parent: Sneha)", "phone_redacted": "<phone>", "language_pref": "hi-en mix", "age_band": "child_under_12" },
+      "relationship": { "first_visit": "2026-01-08", "last_visit": "2026-01-08", "visits_total": 1, "services_received": ["pediatric_checkup"], "lifetime_value": 199 },
+      "state": "lapsed_hard",
+      "preferences": { "preferred_slots": "weekday_after_3pm", "channel": "whatsapp", "reminder_opt_in": true },
+      "consent": { "opted_in_at": "2026-01-08", "scope": ["recall_reminders"] }
+    },
+    {
+      "customer_id": "c_004_sneha_for_m003",
+      "merchant_id": "m_003_studio11_salon_hyderabad",
+      "identity": { "name": "Sneha", "phone_redacted": "<phone>", "language_pref": "te-en mix", "age_band": "25-35" },
+      "relationship": { "first_visit": "2025-09-14", "last_visit": "2026-04-19", "visits_total": 11, "services_received": ["balayage", "hair_spa", "balayage_touchup", "manicure", "pedicure", "haircut", "haircut", "balayage", "hair_spa", "facial", "haircut"], "lifetime_value": 18450 },
+      "state": "active",
+      "preferences": { "preferred_slots": "saturday_afternoon", "channel": "whatsapp", "reminder_opt_in": true, "preferred_stylist": "Priya" },
+      "consent": { "opted_in_at": "2025-09-14", "scope": ["appointment_reminders", "promotional_offers", "stylist_specific"] }
+    },
+    {
+      "customer_id": "c_005_kavya_for_m003",
+      "merchant_id": "m_003_studio11_salon_hyderabad",
+      "identity": { "name": "Kavya", "phone_redacted": "<phone>", "language_pref": "english", "age_band": "20-25" },
+      "relationship": { "first_visit": "2026-03-22", "last_visit": "2026-03-22", "visits_total": 1, "services_received": ["bridal_trial"], "lifetime_value": 999 },
+      "state": "new",
+      "preferences": { "preferred_slots": "saturday", "channel": "whatsapp", "reminder_opt_in": true, "wedding_date": "2026-11-08" },
+      "consent": { "opted_in_at": "2026-03-22", "scope": ["appointment_reminders", "bridal_package_followup"] }
+    },
+    {
+      "customer_id": "c_006_amit_for_m005",
+      "merchant_id": "m_005_pizzajunction_restaurant_delhi",
+      "identity": { "name": "Amit", "phone_redacted": "<phone>", "language_pref": "hi-en mix", "age_band": "25-35" },
+      "relationship": { "first_visit": "2026-04-12", "last_visit": "2026-04-22", "visits_total": 5, "services_received": ["delivery_pizza", "delivery_combo", "dine_in", "delivery_pizza", "delivery_pizza"], "lifetime_value": 2380, "favourite_dish": "BBQ Chicken Pizza" },
+      "state": "active",
+      "preferences": { "preferred_slots": "fri_sat_night", "channel": "whatsapp", "reminder_opt_in": true },
+      "consent": { "opted_in_at": "2026-04-12", "scope": ["promotional_offers", "match_night_specials"] }
+    },
+    {
+      "customer_id": "c_007_naveen_for_m006",
+      "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+      "identity": { "name": "Naveen", "phone_redacted": "<phone>", "language_pref": "kn-en mix", "age_band": "30-40" },
+      "relationship": { "first_visit": "2025-06-05", "last_visit": "2026-04-25", "visits_total": 38, "services_received": ["weekday_thali", "weekday_thali", "weekday_thali", "filter_coffee", "..."], "lifetime_value": 6480, "favourite_dish": "Mylari Dosa" },
+      "state": "active",
+      "preferences": { "preferred_slots": "weekday_lunch", "channel": "whatsapp", "reminder_opt_in": true, "office_nearby": true },
+      "consent": { "opted_in_at": "2025-06-05", "scope": ["promotional_offers", "lunch_thali_updates"] }
+    },
+    {
+      "customer_id": "c_008_dipti_for_m006",
+      "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+      "identity": { "name": "Dipti", "phone_redacted": "<phone>", "language_pref": "english", "age_band": "30-40" },
+      "relationship": { "first_visit": "2025-12-18", "last_visit": "2026-01-05", "visits_total": 2, "services_received": ["family_brunch", "delivery_dosa_combo"], "lifetime_value": 1280 },
+      "state": "lapsed_soft",
+      "preferences": { "preferred_slots": "sunday_brunch", "channel": "whatsapp", "reminder_opt_in": true, "family_size": 4 },
+      "consent": { "opted_in_at": "2025-12-18", "scope": ["promotional_offers"] }
+    },
+    {
+      "customer_id": "c_009_arjun_for_m007",
+      "merchant_id": "m_007_powerhouse_gym_bangalore",
+      "identity": { "name": "Arjun", "phone_redacted": "<phone>", "language_pref": "english", "age_band": "25-35" },
+      "relationship": { "first_visit": "2026-01-05", "last_visit": "2026-04-21", "visits_total": 78, "services_received": ["membership_jan", "membership_feb", "membership_mar", "membership_apr", "PT_session_x12"], "lifetime_value": 9990 },
+      "state": "active",
+      "preferences": { "preferred_slots": "weekday_7am", "channel": "whatsapp", "reminder_opt_in": true, "training_focus": "strength" },
+      "consent": { "opted_in_at": "2026-01-05", "scope": ["program_updates", "renewal_reminders"] }
+    },
+    {
+      "customer_id": "c_010_rashmi_for_m007",
+      "merchant_id": "m_007_powerhouse_gym_bangalore",
+      "identity": { "name": "Rashmi", "phone_redacted": "<phone>", "language_pref": "english", "age_band": "30-40" },
+      "relationship": { "first_visit": "2025-09-10", "last_visit": "2026-02-28", "visits_total": 22, "services_received": ["membership_x4", "PT_intro"], "lifetime_value": 4490 },
+      "state": "lapsed_hard",
+      "preferences": { "preferred_slots": "weekday_evening", "channel": "whatsapp", "reminder_opt_in": true, "training_focus": "weight_loss" },
+      "consent": { "opted_in_at": "2025-09-10", "scope": ["renewal_reminders", "winback_offers"] }
+    },
+    {
+      "customer_id": "c_011_sumitra_for_m008",
+      "merchant_id": "m_008_zenyoga_gym_chennai",
+      "identity": { "name": "Sumitra", "phone_redacted": "<phone>", "language_pref": "ta-en mix", "age_band": "45-55" },
+      "relationship": { "first_visit": "2025-04-12", "last_visit": "2026-04-26", "visits_total": 145, "services_received": ["yoga_intermediate_x12_months", "pilates_x4_months"], "lifetime_value": 28800 },
+      "state": "active",
+      "preferences": { "preferred_slots": "morning_6am", "channel": "whatsapp", "reminder_opt_in": true, "health_focus": "back_pain_management" },
+      "consent": { "opted_in_at": "2025-04-12", "scope": ["program_updates", "health_content", "renewal_reminders"] }
+    },
+    {
+      "customer_id": "c_012_karthik_jr_for_m008",
+      "merchant_id": "m_008_zenyoga_gym_chennai",
+      "identity": { "name": "Karthik (parent: Sumitra)", "phone_redacted": "<phone>", "language_pref": "ta-en mix", "age_band": "child_7-12" },
+      "relationship": { "first_visit": "2026-04-22", "last_visit": "2026-04-22", "visits_total": 1, "services_received": ["kids_yoga_trial"], "lifetime_value": 0 },
+      "state": "new",
+      "preferences": { "preferred_slots": "saturday_morning", "channel": "whatsapp_via_parent", "reminder_opt_in": true },
+      "consent": { "opted_in_at": "2026-04-22", "scope": ["kids_program_updates"] }
+    },
+    {
+      "customer_id": "c_013_grandfather_for_m009",
+      "merchant_id": "m_009_apollo_pharmacy_jaipur",
+      "identity": { "name": "Mr. Sharma", "phone_redacted": "<phone>", "language_pref": "hi", "age_band": "65-75", "senior_citizen": true },
+      "relationship": { "first_visit": "2024-08-10", "last_visit": "2026-04-22", "visits_total": 24, "services_received": ["chronic_rx_metformin", "chronic_rx_atorvastatin", "chronic_rx_telmisartan", "..."], "lifetime_value": 24600, "chronic_conditions": ["diabetes_t2", "hypertension", "dyslipidemia"] },
+      "state": "active",
+      "preferences": { "preferred_slots": "morning_delivery", "channel": "whatsapp_via_son", "reminder_opt_in": true, "delivery_address": "saved" },
+      "consent": { "opted_in_at": "2024-08-10", "scope": ["refill_reminders", "delivery_notifications", "recall_alerts"] }
+    },
+    {
+      "customer_id": "c_014_priti_for_m009",
+      "merchant_id": "m_009_apollo_pharmacy_jaipur",
+      "identity": { "name": "Priti", "phone_redacted": "<phone>", "language_pref": "hi-en mix", "age_band": "30-40" },
+      "relationship": { "first_visit": "2026-03-10", "last_visit": "2026-04-12", "visits_total": 3, "services_received": ["walk_in_otc", "delivery_otc", "consult_with_pharmacist"], "lifetime_value": 580 },
+      "state": "active",
+      "preferences": { "preferred_slots": "evening", "channel": "whatsapp", "reminder_opt_in": true, "household_size": 4 },
+      "consent": { "opted_in_at": "2026-03-10", "scope": ["promotional_offers", "seasonal_health_content"] }
+    },
+    {
+      "customer_id": "c_015_anonymous_for_m010",
+      "merchant_id": "m_010_sunrisepharm_pharmacy_lucknow",
+      "identity": { "name": "(walk-in, no profile)", "phone_redacted": null, "language_pref": "hi", "age_band": "unknown" },
+      "relationship": { "first_visit": "2026-04-15", "last_visit": "2026-04-15", "visits_total": 1, "services_received": ["walk_in_otc"], "lifetime_value": 240 },
+      "state": "new",
+      "preferences": { "channel": "none_recorded", "reminder_opt_in": false },
+      "consent": { "opted_in_at": null, "scope": [] }
+    }
+  ]
+}

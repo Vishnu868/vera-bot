@@ -1,0 +1,15 @@
+{
+  "id": "trg_069_recall_due_m_035_manisha_gym_de",
+  "scope": "customer",
+  "kind": "recall_due",
+  "source": "internal",
+  "merchant_id": "m_035_manisha_gym_delhi",
+  "customer_id": "c_139_aditya_for_m_035_manisha_gym_delhi",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "recall_due"
+  },
+  "urgency": 3,
+  "suppression_key": "recall_due:m_035_manisha_gym_delhi:gen_69",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

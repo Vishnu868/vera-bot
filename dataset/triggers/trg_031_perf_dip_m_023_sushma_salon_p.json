@@ -1,0 +1,15 @@
+{
+  "id": "trg_031_perf_dip_m_023_sushma_salon_p",
+  "scope": "merchant",
+  "kind": "perf_dip",
+  "source": "internal",
+  "merchant_id": "m_023_sushma_salon_pune",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "perf_dip"
+  },
+  "urgency": 3,
+  "suppression_key": "perf_dip:m_023_sushma_salon_pune:gen_31",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

@@ -1,0 +1,42 @@
+{
+  "merchant_id": "m_040_karan_gym_ahmedabad",
+  "category_slug": "gyms",
+  "identity": {
+    "name": "Iron Forge Fitness",
+    "city": "Ahmedabad",
+    "locality": "Thaltej",
+    "place_id": "ChIJ_THALTEJ_GYMS_040",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Karan",
+    "established_year": 2022
+  },
+  "subscription": {
+    "status": "trial",
+    "plan": "Trial",
+    "days_remaining": 3,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 4613,
+    "calls": 11,
+    "directions": 26,
+    "ctr": 0.044,
+    "leads": 4,
+    "delta_7d": {
+      "views_pct": -0.2,
+      "calls_pct": -0.26
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 951
+  },
+  "signals": [],
+  "review_themes": []
+}

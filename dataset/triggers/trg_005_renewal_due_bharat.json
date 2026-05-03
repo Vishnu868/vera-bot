@@ -1,0 +1,16 @@
+{
+  "id": "trg_005_renewal_due_bharat",
+  "scope": "merchant",
+  "kind": "renewal_due",
+  "source": "internal",
+  "merchant_id": "m_002_bharat_dentist_mumbai",
+  "customer_id": null,
+  "payload": {
+    "days_remaining": 12,
+    "plan": "Pro",
+    "renewal_amount": 4999
+  },
+  "urgency": 4,
+  "suppression_key": "renewal:m_002_bharat_dentist_mumbai:2026-Q2",
+  "expires_at": "2026-05-08T00:00:00Z"
+}

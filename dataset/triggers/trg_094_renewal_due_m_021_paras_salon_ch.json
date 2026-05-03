@@ -1,0 +1,15 @@
+{
+  "id": "trg_094_renewal_due_m_021_paras_salon_ch",
+  "scope": "merchant",
+  "kind": "renewal_due",
+  "source": "internal",
+  "merchant_id": "m_021_paras_salon_chandigarh",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "renewal_due"
+  },
+  "urgency": 4,
+  "suppression_key": "renewal_due:m_021_paras_salon_chandigarh:gen_94",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

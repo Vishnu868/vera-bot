@@ -1,0 +1,15 @@
+{
+  "id": "trg_013_corporate_thali_planning",
+  "scope": "merchant",
+  "kind": "active_planning_intent",
+  "source": "internal",
+  "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+  "customer_id": null,
+  "payload": {
+    "intent_topic": "corporate_bulk_thali_package",
+    "merchant_last_message": "Yes good idea, what would it look like"
+  },
+  "urgency": 4,
+  "suppression_key": "planning:m_006:corp_thali:2026-W17",
+  "expires_at": "2026-04-29T00:00:00Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "trg_012_milestone_mylari",
+  "scope": "merchant",
+  "kind": "milestone_reached",
+  "source": "internal",
+  "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+  "customer_id": null,
+  "payload": {
+    "metric": "review_count",
+    "value_now": 145,
+    "milestone_value": 150,
+    "is_imminent": true
+  },
+  "urgency": 1,
+  "suppression_key": "milestone:m_006:reviews_150",
+  "expires_at": "2026-05-15T00:00:00Z"
+}

@@ -1,0 +1,37 @@
+{
+  "customer_id": "c_006_amit_for_m005",
+  "merchant_id": "m_005_pizzajunction_restaurant_delhi",
+  "identity": {
+    "name": "Amit",
+    "phone_redacted": "<phone>",
+    "language_pref": "hi-en mix",
+    "age_band": "25-35"
+  },
+  "relationship": {
+    "first_visit": "2026-04-12",
+    "last_visit": "2026-04-22",
+    "visits_total": 5,
+    "services_received": [
+      "delivery_pizza",
+      "delivery_combo",
+      "dine_in",
+      "delivery_pizza",
+      "delivery_pizza"
+    ],
+    "lifetime_value": 2380,
+    "favourite_dish": "BBQ Chicken Pizza"
+  },
+  "state": "active",
+  "preferences": {
+    "preferred_slots": "fri_sat_night",
+    "channel": "whatsapp",
+    "reminder_opt_in": true
+  },
+  "consent": {
+    "opted_in_at": "2026-04-12",
+    "scope": [
+      "promotional_offers",
+      "match_night_specials"
+    ]
+  }
+}

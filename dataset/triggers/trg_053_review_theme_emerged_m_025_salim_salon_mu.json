@@ -1,0 +1,15 @@
+{
+  "id": "trg_053_review_theme_emerged_m_025_salim_salon_mu",
+  "scope": "merchant",
+  "kind": "review_theme_emerged",
+  "source": "internal",
+  "merchant_id": "m_025_salim_salon_mumbai",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "review_theme_emerged"
+  },
+  "urgency": 3,
+  "suppression_key": "review_theme_emerged:m_025_salim_salon_mumbai:gen_53",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

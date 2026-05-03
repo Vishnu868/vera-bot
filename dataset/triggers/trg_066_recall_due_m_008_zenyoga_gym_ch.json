@@ -1,0 +1,15 @@
+{
+  "id": "trg_066_recall_due_m_008_zenyoga_gym_ch",
+  "scope": "customer",
+  "kind": "recall_due",
+  "source": "internal",
+  "merchant_id": "m_008_zenyoga_gym_chennai",
+  "customer_id": "c_034_diya_for_m_008_zenyoga_gym_chennai",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "recall_due"
+  },
+  "urgency": 3,
+  "suppression_key": "recall_due:m_008_zenyoga_gym_chennai:gen_66",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

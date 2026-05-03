@@ -1,0 +1,43 @@
+{
+  "merchant_id": "m_011_dr_sameer_dentist_bangalore",
+  "category_slug": "dentists",
+  "identity": {
+    "name": "Bright Smile Dental",
+    "city": "Bangalore",
+    "locality": "Indiranagar",
+    "place_id": "ChIJ_INDIRANAGAR_DENTISTS_011",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi",
+      "kn"
+    ],
+    "owner_first_name": "Dr. Sameer",
+    "established_year": 2013
+  },
+  "subscription": {
+    "status": "expired",
+    "plan": "Pro",
+    "days_remaining": 0,
+    "days_since_expiry": 28
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 4792,
+    "calls": 55,
+    "directions": 138,
+    "ctr": 0.046,
+    "leads": 27,
+    "delta_7d": {
+      "views_pct": -0.2,
+      "calls_pct": 0.16
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 1905
+  },
+  "signals": [],
+  "review_themes": []
+}

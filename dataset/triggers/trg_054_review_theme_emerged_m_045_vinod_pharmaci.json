@@ -1,0 +1,15 @@
+{
+  "id": "trg_054_review_theme_emerged_m_045_vinod_pharmaci",
+  "scope": "merchant",
+  "kind": "review_theme_emerged",
+  "source": "internal",
+  "merchant_id": "m_045_vinod_pharmacie_mumbai",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "review_theme_emerged"
+  },
+  "urgency": 3,
+  "suppression_key": "review_theme_emerged:m_045_vinod_pharmacie_mumbai:gen_54",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

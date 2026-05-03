@@ -1,0 +1,79 @@
+{
+  "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+  "category_slug": "restaurants",
+  "identity": {
+    "name": "Mylari South Indian Cafe",
+    "city": "Bangalore",
+    "locality": "Indiranagar",
+    "place_id": "ChIJ_INDIRANAGAR_RESTAURANT_006",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi",
+      "kn"
+    ],
+    "owner_first_name": "Suresh",
+    "established_year": 2014
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 240
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 12400,
+    "calls": 88,
+    "directions": 320,
+    "ctr": 0.032,
+    "leads": 145,
+    "delta_7d": {
+      "views_pct": 0.05,
+      "calls_pct": 0.02
+    }
+  },
+  "offers": [
+    {
+      "id": "o_mylari_001",
+      "title": "Weekday Lunch Thali @ ₹149",
+      "status": "active",
+      "started": "2026-01-10"
+    }
+  ],
+  "conversation_history": [
+    {
+      "ts": "2026-04-25T11:00:00Z",
+      "from": "vera",
+      "body": "Your weekday thali is doing well — 18 orders/day avg. Want me to add a corporate-bulk version?",
+      "engagement": "merchant_replied"
+    },
+    {
+      "ts": "2026-04-25T11:30:00Z",
+      "from": "merchant",
+      "body": "Yes good idea, what would it look like",
+      "engagement": "intent_question"
+    }
+  ],
+  "customer_aggregate": {
+    "total_unique_ytd": 4200,
+    "repeat_customer_pct": 0.42,
+    "delivery_share_pct": 0.45
+  },
+  "signals": [
+    "high_volume",
+    "stable_growth",
+    "engaged_in_last_24h"
+  ],
+  "review_themes": [
+    {
+      "theme": "thali_quality",
+      "sentiment": "pos",
+      "occurrences_30d": 22
+    },
+    {
+      "theme": "weekend_busy",
+      "sentiment": "neg",
+      "occurrences_30d": 3
+    }
+  ]
+}

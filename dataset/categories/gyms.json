@@ -1,0 +1,230 @@
+{
+  "slug": "gyms",
+  "display_name": "Gyms & Fitness",
+  "voice": {
+    "tone": "energetic_disciplined",
+    "register": "coach_to_member",
+    "code_mix": "english_primary_some_hindi",
+    "vocab_allowed": [
+      "footfall",
+      "membership churn",
+      "PT sessions",
+      "PR (personal record)",
+      "1RM",
+      "EMOM",
+      "AMRAP",
+      "split",
+      "cut",
+      "bulk",
+      "BMR",
+      "VO2max",
+      "functional",
+      "HIIT",
+      "CrossFit",
+      "yoga",
+      "pilates"
+    ],
+    "vocab_taboo": [
+      "guaranteed weight loss",
+      "shred in 7 days",
+      "miracle transformation",
+      "fastest results"
+    ],
+    "salutation_examples": [
+      "Hi {first_name}",
+      "{gym_name} team",
+      "Coach"
+    ],
+    "tone_examples": [
+      "Quick check — your weekday 7-9pm slot has been at 90%+ capacity all month",
+      "Footfall pattern: April drop-off is normal; bookings recover by 2nd week May"
+    ]
+  },
+  "offer_catalog": [
+    {
+      "id": "gym_001",
+      "title": "3 FREE Trial Classes",
+      "value": "0",
+      "audience": "new_user",
+      "type": "free_trial"
+    },
+    {
+      "id": "gym_002",
+      "title": "First Month @ ₹499",
+      "value": "499",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "gym_003",
+      "title": "Personal Training Demo @ ₹199",
+      "value": "199",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "gym_004",
+      "title": "Annual Membership @ ₹14,999 (save ₹6,000)",
+      "value": "14999",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "gym_005",
+      "title": "Couple/Family Plan @ ₹999/month",
+      "value": "999",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "gym_006",
+      "title": "Free Body Composition Analysis",
+      "value": "0",
+      "audience": "all",
+      "type": "free_service"
+    },
+    {
+      "id": "gym_007",
+      "title": "Refer-a-friend: 1 month free for both",
+      "value": "free_addon",
+      "audience": "repeat_user",
+      "type": "free_addon"
+    },
+    {
+      "id": "gym_008",
+      "title": "Yoga + Strength Combo @ ₹1,499/month",
+      "value": "1499",
+      "audience": "new_user",
+      "type": "service_at_price"
+    }
+  ],
+  "peer_stats": {
+    "scope": "metro_neighbourhood_gyms_2026",
+    "avg_rating": 4.5,
+    "avg_review_count": 56,
+    "avg_views_30d": 1100,
+    "avg_calls_30d": 18,
+    "avg_directions_30d": 42,
+    "avg_ctr": 0.045,
+    "avg_photos": 16,
+    "avg_post_freq_days": 12,
+    "monthly_churn_pct": 0.08,
+    "trial_to_paid_pct": 0.32
+  },
+  "digest": [
+    {
+      "id": "d_2026W17_resolution_window",
+      "kind": "seasonal",
+      "title": "Post-Jan resolution window closing — last 2 weeks of high trial-walk-ins",
+      "source": "magicpin gym data, Apr 2026",
+      "summary": "Gym trial walk-ins spike Jan 1-15, taper through Mar; April-June hits the lowest acquisition window of the year. Most gyms over-spend on ads now; underspend in October pre-holiday window.",
+      "actionable": "Pause acquisition spend in May; double down Sept-Oct"
+    },
+    {
+      "id": "d_2026W17_pt_demand",
+      "kind": "trend",
+      "title": "Personal Training inquiries +38% YoY in 30-50 corporate cohort",
+      "source": "Multi-gym aggregate Apr 2026",
+      "summary": "Driven by health-check-up findings (rising HbA1c, BP, cholesterol). Demand is for 2x/week PT, not full-program. ₹3,000-5,000/month sweet spot.",
+      "actionable": "Package a '2x/week PT @ ₹3,499' option separate from full membership"
+    },
+    {
+      "id": "d_2026W17_yoga_studio_competition",
+      "kind": "compete",
+      "title": "Boutique yoga/pilates studios opening fast in metro neighbourhoods",
+      "source": "Industry watch Apr 2026",
+      "summary": "Reformer pilates studios at ₹6,000-8,000/month membership are pulling 30-45 women from traditional gyms. Don't compete on price; compete on coach quality + community.",
+      "actionable": "Add one yoga or pilates class to your weekly schedule if you don't have one"
+    },
+    {
+      "id": "d_2026W17_creatine_safety_bulletin",
+      "kind": "research",
+      "title": "ICMR creatine supplementation safety bulletin — adolescent guidance",
+      "source": "ICMR, Apr 2026",
+      "summary": "Creatine monohydrate at 3-5g/day deemed safe for healthy adults; cautioned against under-18 use without medical supervision. Reinforces what most coaches already practice.",
+      "actionable": "Update your store / counter recommendations; flag under-18 customers"
+    },
+    {
+      "id": "d_2026W17_class_schedule_optimization",
+      "kind": "tech",
+      "title": "Schedule density study — peak slots underutilized in mornings",
+      "source": "magicpin internal Apr 2026",
+      "summary": "Across 200+ partner gyms, 6-8am weekday slots run at 60% capacity vs 90%+ for 6-9pm. Adding a 7am class typically doesn't cannibalize evenings.",
+      "actionable": "Consider one new 7am class — yoga or HIIT pulls best in that slot"
+    }
+  ],
+  "patient_content_library": [
+    {
+      "id": "pc_first_30_days",
+      "title": "First 30 days at the gym — what actually changes",
+      "channel": "whatsapp",
+      "length_seconds": 60,
+      "body": "Week 1-2: nervous-system adaptation, lifts feel easier (not muscle gain — coordination). Week 3-4: small visible changes, sleep improves. Real strength/aesthetic changes start at week 8-12. Most people quit at week 3 expecting visible change. Trust the process."
+    },
+    {
+      "id": "pc_pt_or_solo",
+      "title": "PT or solo? A 5-question test",
+      "channel": "whatsapp",
+      "length_seconds": 45,
+      "body": "Solo if: you've trained before, you can read program structure, you don't get injured easily. PT if: you're new, recovering from injury, training for a specific event, or have inconsistent form. Hybrid (PT 1-2x/month + solo): the smartest middle path for most members."
+    },
+    {
+      "id": "pc_protein_basics",
+      "title": "How much protein do you actually need?",
+      "channel": "whatsapp",
+      "length_seconds": 50,
+      "body": "Sedentary adults: 0.8g/kg body weight. Active adults: 1.2-1.6g/kg. Strength training: 1.6-2.2g/kg. For a 70kg active person, that's 84-112g/day — roughly 4 fistful-portions of protein. Indian-veg diets often fall short; supplement with paneer, dal, tofu before adding powders."
+    }
+  ],
+  "seasonal_beats": [
+    {
+      "month_range": "Jan",
+      "note": "resolution surge — trial walk-ins 4x baseline; convert window"
+    },
+    {
+      "month_range": "Apr-Jun",
+      "note": "lowest acquisition window — focus on retention, not acquisition"
+    },
+    {
+      "month_range": "Aug-Oct",
+      "note": "wedding-prep + festival window — repeat clients return to shape up"
+    },
+    {
+      "month_range": "Nov-Dec",
+      "note": "holiday slowdown — class density drops 25%; right time to renovate or pilot new programs"
+    }
+  ],
+  "trend_signals": [
+    {
+      "query": "gym near me",
+      "delta_yoy": 0.05,
+      "segment_age": "all",
+      "skew": "balanced"
+    },
+    {
+      "query": "personal trainer cost",
+      "delta_yoy": 0.38,
+      "segment_age": "30-50",
+      "skew": "balanced"
+    },
+    {
+      "query": "yoga classes near me",
+      "delta_yoy": 0.42,
+      "segment_age": "25-55",
+      "skew": "female"
+    },
+    {
+      "query": "weight loss program",
+      "delta_yoy": 0.28,
+      "segment_age": "30-50",
+      "skew": "female"
+    }
+  ],
+  "regulatory_authorities": [
+    "FSSAI (for supplement sales)",
+    "Local Municipal Corp (premises)"
+  ],
+  "professional_journals": [
+    "Indian Journal of Sports Medicine"
+  ]
+}

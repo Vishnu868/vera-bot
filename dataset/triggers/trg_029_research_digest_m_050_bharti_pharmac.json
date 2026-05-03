@@ -1,0 +1,15 @@
+{
+  "id": "trg_029_research_digest_m_050_bharti_pharmac",
+  "scope": "merchant",
+  "kind": "research_digest",
+  "source": "external",
+  "merchant_id": "m_050_bharti_pharmacie_chennai",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "research_digest"
+  },
+  "urgency": 1,
+  "suppression_key": "research_digest:m_050_bharti_pharmacie_chennai:gen_29",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

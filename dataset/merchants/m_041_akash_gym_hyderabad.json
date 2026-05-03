@@ -1,0 +1,43 @@
+{
+  "merchant_id": "m_041_akash_gym_hyderabad",
+  "category_slug": "gyms",
+  "identity": {
+    "name": "Fit Republic",
+    "city": "Hyderabad",
+    "locality": "Gachibowli",
+    "place_id": "ChIJ_GACHIBOWLI_GYMS_041",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi",
+      "te"
+    ],
+    "owner_first_name": "Akash",
+    "established_year": 2022
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 111,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 3185,
+    "calls": 7,
+    "directions": 40,
+    "ctr": 0.019,
+    "leads": 0,
+    "delta_7d": {
+      "views_pct": 0.05,
+      "calls_pct": 0.03
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 1564
+  },
+  "signals": [],
+  "review_themes": []
+}

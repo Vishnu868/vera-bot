@@ -1,0 +1,15 @@
+{
+  "id": "trg_100_curious_ask_due_m_021_paras_salon_ch",
+  "scope": "merchant",
+  "kind": "curious_ask_due",
+  "source": "internal",
+  "merchant_id": "m_021_paras_salon_chandigarh",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "curious_ask_due"
+  },
+  "urgency": 1,
+  "suppression_key": "curious_ask_due:m_021_paras_salon_chandigarh:gen_100",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

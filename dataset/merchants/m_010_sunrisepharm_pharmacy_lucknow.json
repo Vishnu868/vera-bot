@@ -1,0 +1,48 @@
+{
+  "merchant_id": "m_010_sunrisepharm_pharmacy_lucknow",
+  "category_slug": "pharmacies",
+  "identity": {
+    "name": "Sunrise Medicos",
+    "city": "Lucknow",
+    "locality": "Gomti Nagar",
+    "place_id": "ChIJ_GOMTINAGAR_PHARMACY_010",
+    "verified": false,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Vikas",
+    "established_year": 2020
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Basic",
+    "days_remaining": 200
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 720,
+    "calls": 14,
+    "directions": 32,
+    "ctr": 0.041,
+    "leads": 8,
+    "delta_7d": {
+      "views_pct": 0.02,
+      "calls_pct": 0.05
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 540,
+    "repeat_customer_pct": 0.45,
+    "chronic_rx_count": 60
+  },
+  "signals": [
+    "unverified_gbp",
+    "no_active_offers",
+    "no_recent_conversation",
+    "delivery_not_set_up"
+  ],
+  "review_themes": []
+}

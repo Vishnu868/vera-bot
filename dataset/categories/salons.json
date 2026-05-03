@@ -1,0 +1,229 @@
+{
+  "slug": "salons",
+  "display_name": "Salons & Beauty",
+  "voice": {
+    "tone": "warm_practical",
+    "register": "approachable_expert",
+    "code_mix": "hindi_english_natural",
+    "vocab_allowed": [
+      "balayage",
+      "highlights",
+      "keratin",
+      "smoothening",
+      "hair spa",
+      "manicure",
+      "pedicure",
+      "facial",
+      "threading",
+      "waxing",
+      "extensions",
+      "olaplex",
+      "wella",
+      "loreal",
+      "schwarzkopf",
+      "redken"
+    ],
+    "vocab_taboo": [
+      "guaranteed glow",
+      "permanent results",
+      "instant transformation",
+      "miracle",
+      "best in city"
+    ],
+    "salutation_examples": [
+      "Hi {first_name}",
+      "{salon_name} team"
+    ],
+    "tone_examples": [
+      "Bridal season is starting — bookings usually 2x normal in next 4 weeks",
+      "Quick one — your Saturday 5-7pm slot has been the strongest this month"
+    ]
+  },
+  "offer_catalog": [
+    {
+      "id": "sal_001",
+      "title": "Haircut @ ₹99",
+      "value": "99",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "sal_002",
+      "title": "FREE head massage with Haircut",
+      "value": "0",
+      "audience": "new_user",
+      "type": "free_addon"
+    },
+    {
+      "id": "sal_003",
+      "title": "Hair Spa @ ₹499",
+      "value": "499",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "sal_004",
+      "title": "Threading + Waxing combo @ ₹299",
+      "value": "299",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "sal_005",
+      "title": "Bridal Trial @ ₹999",
+      "value": "999",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "sal_006",
+      "title": "Keratin Treatment @ ₹2,499",
+      "value": "2499",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "sal_007",
+      "title": "Mani+Pedi Combo @ ₹599",
+      "value": "599",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "sal_008",
+      "title": "Annual Membership: 12 services @ ₹4,999",
+      "value": "4999",
+      "audience": "repeat_user",
+      "type": "membership"
+    }
+  ],
+  "peer_stats": {
+    "scope": "metro_unisex_salons_2026",
+    "avg_rating": 4.5,
+    "avg_review_count": 88,
+    "avg_views_30d": 2400,
+    "avg_calls_30d": 28,
+    "avg_directions_30d": 62,
+    "avg_ctr": 0.04,
+    "avg_photos": 14,
+    "avg_post_freq_days": 10,
+    "retention_3mo_pct": 0.55
+  },
+  "digest": [
+    {
+      "id": "d_2026W17_olaplex_no9",
+      "kind": "tech",
+      "title": "Olaplex No.9 launches in India — bond protector for chemically-treated hair",
+      "source": "Hair Brand News India, Apr 2026",
+      "summary": "Pre-shampoo bond protector targeting damage from frequent colour and smoothening. Distributors confirmed in Delhi/Mumbai/Bangalore. Wholesale ₹3,200/bottle, retail ~₹4,500.",
+      "actionable": "Worth piloting if your colour client mix is >25%"
+    },
+    {
+      "id": "d_2026W17_keratin_alt",
+      "kind": "trend",
+      "title": "Formaldehyde-free smoothening alternatives gaining share — citric-acid based",
+      "source": "Salon India magazine, Apr 2026",
+      "summary": "Brazilian citric-acid keratin alternatives now widely available. Lower fume, comparable hold for ~6-8 weeks. Pricing roughly +15% over standard keratin.",
+      "actionable": "Position as 'safe smoothening' for pregnancy / asthma clients"
+    },
+    {
+      "id": "d_2026W17_bridal_season_start",
+      "kind": "seasonal",
+      "title": "Wedding season opener — first lean April-May window before main Oct-Dec rush",
+      "source": "Wedding industry intel",
+      "summary": "Mini-bridal window April-May (~15% of annual bridal volume) often missed by salons focused on Oct-Dec. Pre-wedding skincare + mehendi-prep services peak now.",
+      "actionable": "Run a 'Bridal Trial @ ₹999' offer; book 2-month skincare package"
+    },
+    {
+      "id": "d_2026W17_olaplex_training",
+      "kind": "cde",
+      "title": "L'Oreal Professionnel India training: Advanced Balayage Masterclass",
+      "source": "L'Oreal Pro India calendar",
+      "date": "2026-05-08",
+      "summary": "2-day in-person training in Mumbai. ₹15,000 fee. Targeted at stylists with 2+ years of colour experience.",
+      "actionable": "Worth subsidising for one stylist if balayage demand is rising in your locality"
+    },
+    {
+      "id": "d_2026W17_walkin_priority",
+      "kind": "trend",
+      "title": "'Walk-in available' tag on GBP boosting calls 23% in metros",
+      "source": "magicpin internal, Apr 2026",
+      "summary": "Salons that explicitly add 'walk-in available' to their GBP description see 23% higher call volume in the same locality vs salons without. Effect strongest weekday afternoons.",
+      "actionable": "Add the tag to your GBP description this week"
+    }
+  ],
+  "patient_content_library": [
+    {
+      "id": "pc_keratin_safe",
+      "title": "Is keratin safe? What to ask before booking",
+      "channel": "whatsapp",
+      "length_seconds": 60,
+      "body": "Old-school keratin uses formaldehyde — safe in trained hands but not for pregnancy or asthma. Citric-acid alternatives exist now with similar hold. Two questions to ask any salon: (1) what's your activator? (2) is the room ventilated? If you don't get a clear answer, look elsewhere."
+    },
+    {
+      "id": "pc_balayage_vs_highlights",
+      "title": "Balayage vs highlights — which actually suits you?",
+      "channel": "whatsapp",
+      "length_seconds": 75,
+      "body": "Highlights are uniform stripes; balayage is hand-painted, growing out softly with no visible regrowth line. Highlights cost less but need touch-ups every 8 weeks. Balayage holds 4-5 months. If you don't visit the salon often, balayage is the practical choice."
+    },
+    {
+      "id": "pc_post_color_care",
+      "title": "Post-colour care — first 72 hours matter most",
+      "channel": "whatsapp",
+      "length_seconds": 45,
+      "body": "Three rules: no shampoo for 48h (let cuticle close), use sulphate-free shampoo from day 3, and avoid hot water washes for the first month. Skip these and you'll lose 30% of the colour vibrance in the first wash."
+    }
+  ],
+  "seasonal_beats": [
+    {
+      "month_range": "Oct-Dec",
+      "note": "primary wedding/festival season — bridal package bookings 4x baseline"
+    },
+    {
+      "month_range": "Apr-May",
+      "note": "secondary bridal window + summer hair-care surge"
+    },
+    {
+      "month_range": "Jul-Aug",
+      "note": "monsoon haircare focus (anti-frizz, scalp treatments)"
+    },
+    {
+      "month_range": "Mar",
+      "note": "Holi colour-recovery surge — book hair spas the week after"
+    }
+  ],
+  "trend_signals": [
+    {
+      "query": "balayage near me",
+      "delta_yoy": 0.45,
+      "segment_age": "25-40",
+      "skew": "female"
+    },
+    {
+      "query": "keratin treatment price",
+      "delta_yoy": 0.18,
+      "segment_age": "25-45",
+      "skew": "female"
+    },
+    {
+      "query": "men's haircut delhi",
+      "delta_yoy": 0.22,
+      "segment_age": "20-35",
+      "skew": "male"
+    },
+    {
+      "query": "bridal makeup artist",
+      "delta_yoy": 0.31,
+      "segment_age": "22-32",
+      "skew": "female"
+    }
+  ],
+  "regulatory_authorities": [
+    "FDA India (cosmetic ingredient compliance)"
+  ],
+  "professional_journals": [
+    "Salon India",
+    "Pure Beauty India"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "merchant_id": "m_027_anand_restaurant_chennai",
+  "category_slug": "restaurants",
+  "identity": {
+    "name": "Chai Point Cafe",
+    "city": "Chennai",
+    "locality": "Tambaram",
+    "place_id": "ChIJ_TAMBARAM_RESTAURANTS_027",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi",
+      "ta"
+    ],
+    "owner_first_name": "Anand",
+    "established_year": 2014
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 262,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 3861,
+    "calls": 27,
+    "directions": 71,
+    "ctr": 0.045,
+    "leads": 3,
+    "delta_7d": {
+      "views_pct": 0.11,
+      "calls_pct": 0.28
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 550
+  },
+  "signals": [],
+  "review_themes": []
+}

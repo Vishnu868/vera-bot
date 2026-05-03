@@ -1,0 +1,15 @@
+{
+  "id": "trg_027_research_digest_m_037_pooja_gym_bang",
+  "scope": "merchant",
+  "kind": "research_digest",
+  "source": "external",
+  "merchant_id": "m_037_pooja_gym_bangalore",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "research_digest"
+  },
+  "urgency": 1,
+  "suppression_key": "research_digest:m_037_pooja_gym_bangalore:gen_27",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

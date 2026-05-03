@@ -1,0 +1,43 @@
+{
+  "merchant_id": "m_024_geeta_salon_bangalore",
+  "category_slug": "salons",
+  "identity": {
+    "name": "Glow Up Salon",
+    "city": "Bangalore",
+    "locality": "Koramangala",
+    "place_id": "ChIJ_KORAMANGALA_SALONS_024",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi",
+      "kn"
+    ],
+    "owner_first_name": "Geeta",
+    "established_year": 2016
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 91,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 1957,
+    "calls": 5,
+    "directions": 24,
+    "ctr": 0.026,
+    "leads": 1,
+    "delta_7d": {
+      "views_pct": 0.23,
+      "calls_pct": -0.22
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 326
+  },
+  "signals": [],
+  "review_themes": []
+}

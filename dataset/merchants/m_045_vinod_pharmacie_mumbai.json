@@ -1,0 +1,43 @@
+{
+  "merchant_id": "m_045_vinod_pharmacie_mumbai",
+  "category_slug": "pharmacies",
+  "identity": {
+    "name": "Family Health Pharmacy",
+    "city": "Mumbai",
+    "locality": "Worli",
+    "place_id": "ChIJ_WORLI_PHARMACIES_045",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi",
+      "mr"
+    ],
+    "owner_first_name": "Vinod",
+    "established_year": 2016
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 227,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 5572,
+    "calls": 31,
+    "directions": 82,
+    "ctr": 0.04,
+    "leads": 18,
+    "delta_7d": {
+      "views_pct": -0.14,
+      "calls_pct": -0.12
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 602
+  },
+  "signals": [],
+  "review_themes": []
+}

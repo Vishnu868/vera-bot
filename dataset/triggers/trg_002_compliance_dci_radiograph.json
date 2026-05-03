@@ -1,0 +1,16 @@
+{
+  "id": "trg_002_compliance_dci_radiograph",
+  "scope": "merchant",
+  "kind": "regulation_change",
+  "source": "external",
+  "merchant_id": "m_001_drmeera_dentist_delhi",
+  "customer_id": null,
+  "payload": {
+    "category": "dentists",
+    "top_item_id": "d_2026W17_dci_radiograph",
+    "deadline_iso": "2026-12-15"
+  },
+  "urgency": 4,
+  "suppression_key": "compliance:dci_radiograph:2026",
+  "expires_at": "2026-12-15T00:00:00Z"
+}

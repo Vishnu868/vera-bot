@@ -1,0 +1,18 @@
+{
+  "id": "trg_024_perf_spike_zen",
+  "scope": "merchant",
+  "kind": "perf_spike",
+  "source": "internal",
+  "merchant_id": "m_008_zenyoga_gym_chennai",
+  "customer_id": null,
+  "payload": {
+    "metric": "calls",
+    "delta_pct": 0.15,
+    "window": "7d",
+    "vs_baseline": 18,
+    "likely_driver": "kids_yoga_post"
+  },
+  "urgency": 1,
+  "suppression_key": "perf_spike:m_008:calls:2026-W17",
+  "expires_at": "2026-05-03T00:00:00Z"
+}

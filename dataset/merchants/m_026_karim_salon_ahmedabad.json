@@ -1,0 +1,42 @@
+{
+  "merchant_id": "m_026_karim_salon_ahmedabad",
+  "category_slug": "salons",
+  "identity": {
+    "name": "Karim's Salon",
+    "city": "Ahmedabad",
+    "locality": "Navrangpura",
+    "place_id": "ChIJ_NAVRANGPURA_SALONS_026",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Karim",
+    "established_year": 2019
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 273,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 5344,
+    "calls": 13,
+    "directions": 37,
+    "ctr": 0.024,
+    "leads": 9,
+    "delta_7d": {
+      "views_pct": 0.2,
+      "calls_pct": 0.1
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 1611
+  },
+  "signals": [],
+  "review_themes": []
+}

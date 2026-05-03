@@ -1,0 +1,15 @@
+{
+  "id": "trg_025_dormancy_glamour",
+  "scope": "merchant",
+  "kind": "dormant_with_vera",
+  "source": "internal",
+  "merchant_id": "m_004_glamour_salon_pune",
+  "customer_id": null,
+  "payload": {
+    "days_since_last_merchant_message": 38,
+    "last_topic": "subscription_expiry"
+  },
+  "urgency": 2,
+  "suppression_key": "dormant:m_004:30d",
+  "expires_at": "2026-05-30T00:00:00Z"
+}

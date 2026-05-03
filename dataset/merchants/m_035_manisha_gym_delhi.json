@@ -1,0 +1,42 @@
+{
+  "merchant_id": "m_035_manisha_gym_delhi",
+  "category_slug": "gyms",
+  "identity": {
+    "name": "Vyayam Yoga",
+    "city": "Delhi",
+    "locality": "Dwarka",
+    "place_id": "ChIJ_DWARKA_GYMS_035",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Manisha",
+    "established_year": 2010
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 142,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 2612,
+    "calls": 30,
+    "directions": 68,
+    "ctr": 0.038,
+    "leads": 5,
+    "delta_7d": {
+      "views_pct": -0.26,
+      "calls_pct": 0.02
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 1026
+  },
+  "signals": [],
+  "review_themes": []
+}

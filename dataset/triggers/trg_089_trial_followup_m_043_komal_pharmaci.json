@@ -1,0 +1,15 @@
+{
+  "id": "trg_089_trial_followup_m_043_komal_pharmaci",
+  "scope": "customer",
+  "kind": "trial_followup",
+  "source": "internal",
+  "merchant_id": "m_043_komal_pharmacie_ahmedabad",
+  "customer_id": "c_171_arjun_for_m_043_komal_pharmacie_ahmedabad",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "trial_followup"
+  },
+  "urgency": 2,
+  "suppression_key": "trial_followup:m_043_komal_pharmacie_ahmedabad:gen_89",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "trg_079_appointment_tomorrow_m_017_dr_rajan_denti",
+  "scope": "customer",
+  "kind": "appointment_tomorrow",
+  "source": "internal",
+  "merchant_id": "m_017_dr_rajan_dentist_mumbai",
+  "customer_id": "c_068_arjun_for_m_017_dr_rajan_dentist_mumbai",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "appointment_tomorrow"
+  },
+  "urgency": 2,
+  "suppression_key": "appointment_tomorrow:m_017_dr_rajan_dentist_mumbai:gen_79",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

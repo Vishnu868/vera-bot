@@ -1,0 +1,26 @@
+{
+  "id": "trg_003_recall_due_priya",
+  "scope": "customer",
+  "kind": "recall_due",
+  "source": "internal",
+  "merchant_id": "m_001_drmeera_dentist_delhi",
+  "customer_id": "c_001_priya_for_m001",
+  "payload": {
+    "service_due": "6_month_cleaning",
+    "last_service_date": "2026-05-12",
+    "due_date": "2026-11-12",
+    "available_slots": [
+      {
+        "iso": "2026-11-05T18:00:00+05:30",
+        "label": "Wed 5 Nov, 6pm"
+      },
+      {
+        "iso": "2026-11-06T17:00:00+05:30",
+        "label": "Thu 6 Nov, 5pm"
+      }
+    ]
+  },
+  "urgency": 3,
+  "suppression_key": "recall:c_001_priya_for_m001:6mo",
+  "expires_at": "2026-11-30T00:00:00Z"
+}

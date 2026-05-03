@@ -1,0 +1,228 @@
+{
+  "slug": "restaurants",
+  "display_name": "Restaurants & Cafes",
+  "voice": {
+    "tone": "warm_busy_practical",
+    "register": "fellow_operator",
+    "code_mix": "hindi_english_natural",
+    "vocab_allowed": [
+      "footfall",
+      "covers",
+      "AOV",
+      "RPC",
+      "table turnover",
+      "reservations",
+      "GRO",
+      "weekend brunch",
+      "happy hour",
+      "thali",
+      "biryani",
+      "tandoor"
+    ],
+    "vocab_taboo": [
+      "best food in city",
+      "guaranteed packed house",
+      "miracle marketing",
+      "viral guarantee"
+    ],
+    "salutation_examples": [
+      "Hi {chef_or_owner_first_name}",
+      "{restaurant_name} team"
+    ],
+    "tone_examples": [
+      "Quick one — IPL match nights have been 1.5x your weekday avg this season",
+      "Spotted: 'biryani delivery' searches in your sublocality up 28% this week"
+    ]
+  },
+  "offer_catalog": [
+    {
+      "id": "res_001",
+      "title": "Flat 30% OFF on total bill (limit ₹500)",
+      "value": "30%",
+      "audience": "new_user",
+      "type": "percentage_discount"
+    },
+    {
+      "id": "res_002",
+      "title": "Buy 1 Pizza Get 1 Free (Tue-Thu)",
+      "value": "BOGO",
+      "audience": "new_user",
+      "type": "bogo"
+    },
+    {
+      "id": "res_003",
+      "title": "Weekday Lunch Thali @ ₹149",
+      "value": "149",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "res_004",
+      "title": "Free Starter on orders > ₹1,200",
+      "value": "free_addon",
+      "audience": "new_user",
+      "type": "free_addon"
+    },
+    {
+      "id": "res_005",
+      "title": "Match-night Combo @ ₹399 (food + drink)",
+      "value": "399",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "res_006",
+      "title": "Family Sunday Brunch @ ₹699/pax",
+      "value": "699",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "res_007",
+      "title": "Free Delivery > ₹500",
+      "value": "free_delivery",
+      "audience": "new_user",
+      "type": "free_addon"
+    },
+    {
+      "id": "res_008",
+      "title": "Birthday: Free Cake on parties of 6+",
+      "value": "free_addon",
+      "audience": "all",
+      "type": "free_addon"
+    }
+  ],
+  "peer_stats": {
+    "scope": "metro_casual_dining_2026",
+    "avg_rating": 4.2,
+    "avg_review_count": 142,
+    "avg_views_30d": 4800,
+    "avg_calls_30d": 38,
+    "avg_directions_30d": 95,
+    "avg_ctr": 0.025,
+    "avg_photos": 22,
+    "avg_post_freq_days": 7,
+    "retention_30d_pct": 0.18
+  },
+  "digest": [
+    {
+      "id": "d_2026W17_ipl_window",
+      "kind": "seasonal",
+      "title": "IPL home-match Saturdays underperformed weeknight matches across metros",
+      "source": "magicpin order data, Apr 2026",
+      "summary": "Saturday IPL matches shift orders to home-watch parties; restaurant covers down 12% vs Saturday average. Weeknight matches drive +18% covers. Adjust promo days accordingly.",
+      "actionable": "Push match-night combos on Tue/Wed/Thu match dates only"
+    },
+    {
+      "id": "d_2026W17_packaged_food_gst",
+      "kind": "compliance",
+      "title": "GST council clarifies 5% rate for restaurant takeaway packaging from 2026-06-01",
+      "source": "GST Council circular 224/2026",
+      "summary": "Single-use plastic surcharge added to packaging cost for orders >₹500. Effective June 1. Cloud kitchens hit hardest.",
+      "actionable": "Audit your packaging cost; consider Eco-pack alternative if volume justifies"
+    },
+    {
+      "id": "d_2026W17_zomato_visibility",
+      "kind": "trend",
+      "title": "Zomato 'verified' badge correlates with +24% impressions in Tier-1 cities",
+      "source": "Zomato partner update, Apr 2026",
+      "summary": "Verification requires uploaded GST cert + 6 months continuous operation. Most eligible mid-size restaurants haven't applied; 5-day approval.",
+      "actionable": "Apply via partner dashboard if you've crossed 6 months"
+    },
+    {
+      "id": "d_2026W17_swiggy_iCare",
+      "kind": "tech",
+      "title": "Swiggy iCare: AI complaint summarizer launching Apr 2026",
+      "source": "Swiggy partner blog 2026-04-12",
+      "summary": "Auto-summarises customer complaints into themes (cold food / late / wrong order). Free for Pro merchants. Reveals pattern most operators miss.",
+      "actionable": "Enable in dashboard; review weekly themes Sunday evening"
+    },
+    {
+      "id": "d_2026W17_dish_trend",
+      "kind": "trend",
+      "title": "'Sugar-free dessert' searches +52% YoY across Indian metros",
+      "source": "Google Trends Apr 2026",
+      "summary": "Concentrated in 28-45 age band; correlated with rising diabetic awareness. Two new options on dessert menus seeing strong attach rate: keto cheesecake, almond-flour brownie.",
+      "actionable": "Add one sugar-free dessert; mark prominently on menu and GBP"
+    }
+  ],
+  "patient_content_library": [
+    {
+      "id": "pc_ordering_smart",
+      "title": "Three things to look for before ordering food online",
+      "channel": "whatsapp",
+      "length_seconds": 60,
+      "body": "(1) Look at the latest review's date — if last review is 30+ days old, the kitchen may be off. (2) Filter for 4★+ reviews mentioning your specific dish. (3) Order at peak hours — fresh prep, not warmed-up morning batch. These three filter out 80% of bad-experience risk."
+    },
+    {
+      "id": "pc_thali_economics",
+      "title": "Why a ₹149 thali is the best lunch deal in town",
+      "channel": "whatsapp",
+      "length_seconds": 45,
+      "body": "A weekday thali for ₹149 covers your daily protein, two veggies, dal, rice, roti, and pickle/sweet. Buying these separately at any market in the neighbourhood: ₹240+. The only way restaurants make this work is high lunch volume — which means freshly-cooked, not standing in a chafer."
+    }
+  ],
+  "seasonal_beats": [
+    {
+      "month_range": "Mar-Apr",
+      "note": "IPL season — match-night promos on Tue/Wed/Thu; not weekends"
+    },
+    {
+      "month_range": "Oct-Nov",
+      "note": "Diwali corporate gifting + family-feast bookings"
+    },
+    {
+      "month_range": "Dec",
+      "note": "Christmas + New Year — set menu sales 3x baseline"
+    },
+    {
+      "month_range": "Jul-Aug",
+      "note": "monsoon delivery surge; rain-day discount window"
+    },
+    {
+      "month_range": "Feb 14",
+      "note": "Valentine's prix-fixe — book starting 2 weeks prior"
+    }
+  ],
+  "trend_signals": [
+    {
+      "query": "biryani near me",
+      "delta_yoy": 0.18,
+      "segment_age": "all",
+      "skew": "balanced"
+    },
+    {
+      "query": "weekday lunch thali",
+      "delta_yoy": 0.34,
+      "segment_age": "office_25-45",
+      "skew": "balanced"
+    },
+    {
+      "query": "sugar free dessert",
+      "delta_yoy": 0.52,
+      "segment_age": "28-45",
+      "skew": "balanced"
+    },
+    {
+      "query": "match night offer",
+      "delta_yoy": 0.65,
+      "segment_age": "20-40",
+      "skew": "male"
+    },
+    {
+      "query": "small party catering",
+      "delta_yoy": 0.22,
+      "segment_age": "30-50",
+      "skew": "female"
+    }
+  ],
+  "regulatory_authorities": [
+    "FSSAI",
+    "Local Health Department",
+    "GST Council"
+  ],
+  "professional_journals": [
+    "FoodService India",
+    "Hospitality Bizz"
+  ]
+}

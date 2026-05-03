@@ -1,0 +1,28 @@
+{
+  "customer_id": "c_021_arjun_for_m_003_studio11_salon_hyderabad",
+  "merchant_id": "m_003_studio11_salon_hyderabad",
+  "identity": {
+    "name": "Arjun",
+    "phone_redacted": "<phone>",
+    "language_pref": "hi",
+    "age_band": "50-65"
+  },
+  "relationship": {
+    "first_visit": "2025-09-01",
+    "last_visit": "2026-04-01",
+    "visits_total": 1,
+    "services_received": [],
+    "lifetime_value": 1295
+  },
+  "state": "churned",
+  "preferences": {
+    "channel": "whatsapp",
+    "reminder_opt_in": false
+  },
+  "consent": {
+    "opted_in_at": "2025-09-01",
+    "scope": [
+      "promotional_offers"
+    ]
+  }
+}

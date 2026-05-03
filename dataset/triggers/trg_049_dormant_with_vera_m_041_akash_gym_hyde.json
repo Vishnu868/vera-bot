@@ -1,0 +1,15 @@
+{
+  "id": "trg_049_dormant_with_vera_m_041_akash_gym_hyde",
+  "scope": "merchant",
+  "kind": "dormant_with_vera",
+  "source": "internal",
+  "merchant_id": "m_041_akash_gym_hyderabad",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "dormant_with_vera"
+  },
+  "urgency": 2,
+  "suppression_key": "dormant_with_vera:m_041_akash_gym_hyderabad:gen_49",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

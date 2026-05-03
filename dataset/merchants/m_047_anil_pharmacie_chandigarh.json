@@ -1,0 +1,42 @@
+{
+  "merchant_id": "m_047_anil_pharmacie_chandigarh",
+  "category_slug": "pharmacies",
+  "identity": {
+    "name": "Healthwell Pharmacy",
+    "city": "Chandigarh",
+    "locality": "Mohali",
+    "place_id": "ChIJ_MOHALI_PHARMACIES_047",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Anil",
+    "established_year": 2010
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 23,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 2307,
+    "calls": 8,
+    "directions": 42,
+    "ctr": 0.031,
+    "leads": 4,
+    "delta_7d": {
+      "views_pct": -0.23,
+      "calls_pct": 0.28
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 698
+  },
+  "signals": [],
+  "review_themes": []
+}

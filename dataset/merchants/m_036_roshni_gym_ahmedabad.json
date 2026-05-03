@@ -1,0 +1,42 @@
+{
+  "merchant_id": "m_036_roshni_gym_ahmedabad",
+  "category_slug": "gyms",
+  "identity": {
+    "name": "Active Life Gym",
+    "city": "Ahmedabad",
+    "locality": "Maninagar",
+    "place_id": "ChIJ_MANINAGAR_GYMS_036",
+    "verified": false,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Roshni",
+    "established_year": 2020
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 35,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 2954,
+    "calls": 5,
+    "directions": 17,
+    "ctr": 0.052,
+    "leads": 5,
+    "delta_7d": {
+      "views_pct": -0.25,
+      "calls_pct": 0.27
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 60
+  },
+  "signals": [],
+  "review_themes": []
+}

@@ -1,0 +1,42 @@
+{
+  "merchant_id": "m_016_dr_rajan_dentist_pune",
+  "category_slug": "dentists",
+  "identity": {
+    "name": "City Dental Clinic",
+    "city": "Pune",
+    "locality": "Baner",
+    "place_id": "ChIJ_BANER_DENTISTS_016",
+    "verified": false,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Dr. Rajan",
+    "established_year": 2020
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 291,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 1645,
+    "calls": 4,
+    "directions": 18,
+    "ctr": 0.017,
+    "leads": 0,
+    "delta_7d": {
+      "views_pct": 0.21,
+      "calls_pct": -0.18
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 138
+  },
+  "signals": [],
+  "review_themes": []
+}

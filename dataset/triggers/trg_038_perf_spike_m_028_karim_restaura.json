@@ -1,0 +1,15 @@
+{
+  "id": "trg_038_perf_spike_m_028_karim_restaura",
+  "scope": "merchant",
+  "kind": "perf_spike",
+  "source": "internal",
+  "merchant_id": "m_028_karim_restaurant_chennai",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "perf_spike"
+  },
+  "urgency": 1,
+  "suppression_key": "perf_spike:m_028_karim_restaurant_chennai:gen_38",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

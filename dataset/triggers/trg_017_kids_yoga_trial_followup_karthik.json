@@ -1,0 +1,20 @@
+{
+  "id": "trg_017_kids_yoga_trial_followup_karthik",
+  "scope": "customer",
+  "kind": "trial_followup",
+  "source": "internal",
+  "merchant_id": "m_008_zenyoga_gym_chennai",
+  "customer_id": "c_012_karthik_jr_for_m008",
+  "payload": {
+    "trial_date": "2026-04-22",
+    "next_session_options": [
+      {
+        "iso": "2026-05-03T08:00:00+05:30",
+        "label": "Sat 3 May, 8am"
+      }
+    ]
+  },
+  "urgency": 2,
+  "suppression_key": "trial_followup:c_012_karthik_jr_for_m008",
+  "expires_at": "2026-05-10T00:00:00Z"
+}

@@ -1,0 +1,42 @@
+{
+  "merchant_id": "m_022_renu_salon_ahmedabad",
+  "category_slug": "salons",
+  "identity": {
+    "name": "Beauty Lounge by Renu",
+    "city": "Ahmedabad",
+    "locality": "Thaltej",
+    "place_id": "ChIJ_THALTEJ_SALONS_022",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Renu",
+    "established_year": 2015
+  },
+  "subscription": {
+    "status": "expired",
+    "plan": "Pro",
+    "days_remaining": 0,
+    "days_since_expiry": 88
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 3135,
+    "calls": 14,
+    "directions": 32,
+    "ctr": 0.041,
+    "leads": 13,
+    "delta_7d": {
+      "views_pct": -0.26,
+      "calls_pct": 0.15
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 417
+  },
+  "signals": [],
+  "review_themes": []
+}

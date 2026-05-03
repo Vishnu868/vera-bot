@@ -1,0 +1,15 @@
+{
+  "id": "trg_098_curious_ask_due_m_039_karan_gym_jaip",
+  "scope": "merchant",
+  "kind": "curious_ask_due",
+  "source": "internal",
+  "merchant_id": "m_039_karan_gym_jaipur",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "curious_ask_due"
+  },
+  "urgency": 1,
+  "suppression_key": "curious_ask_due:m_039_karan_gym_jaipur:gen_98",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

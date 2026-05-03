@@ -1,0 +1,42 @@
+{
+  "merchant_id": "m_021_paras_salon_chandigarh",
+  "category_slug": "salons",
+  "identity": {
+    "name": "Paras Hair & Beauty",
+    "city": "Chandigarh",
+    "locality": "Panchkula",
+    "place_id": "ChIJ_PANCHKULA_SALONS_021",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Paras",
+    "established_year": 2010
+  },
+  "subscription": {
+    "status": "expired",
+    "plan": "Pro",
+    "days_remaining": 0,
+    "days_since_expiry": 73
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 4171,
+    "calls": 31,
+    "directions": 79,
+    "ctr": 0.026,
+    "leads": 20,
+    "delta_7d": {
+      "views_pct": 0.18,
+      "calls_pct": -0.27
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 1918
+  },
+  "signals": [],
+  "review_themes": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "trg_037_perf_spike_m_023_sushma_salon_p",
+  "scope": "merchant",
+  "kind": "perf_spike",
+  "source": "internal",
+  "merchant_id": "m_023_sushma_salon_pune",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "perf_spike"
+  },
+  "urgency": 1,
+  "suppression_key": "perf_spike:m_023_sushma_salon_pune:gen_37",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

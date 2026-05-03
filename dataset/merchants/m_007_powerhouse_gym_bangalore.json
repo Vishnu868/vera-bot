@@ -1,0 +1,66 @@
+{
+  "merchant_id": "m_007_powerhouse_gym_bangalore",
+  "category_slug": "gyms",
+  "identity": {
+    "name": "PowerHouse Fitness",
+    "city": "Bangalore",
+    "locality": "HSR Layout",
+    "place_id": "ChIJ_HSR_GYM_007",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi",
+      "kn"
+    ],
+    "owner_first_name": "Karthik",
+    "established_year": 2020
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 95
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 1480,
+    "calls": 22,
+    "directions": 48,
+    "ctr": 0.052,
+    "leads": 14,
+    "delta_7d": {
+      "views_pct": -0.3,
+      "calls_pct": -0.35
+    }
+  },
+  "offers": [
+    {
+      "id": "o_powerhouse_001",
+      "title": "3 FREE Trial Classes",
+      "status": "active",
+      "started": "2026-01-01"
+    }
+  ],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_active_members": 245,
+    "monthly_churn_pct": 0.1,
+    "trial_to_paid_pct": 0.28
+  },
+  "signals": [
+    "seasonal_dip_apr_may",
+    "above_peer_ctr",
+    "no_recent_post"
+  ],
+  "review_themes": [
+    {
+      "theme": "equipment_quality",
+      "sentiment": "pos",
+      "occurrences_30d": 7
+    },
+    {
+      "theme": "morning_crowd",
+      "sentiment": "neg",
+      "occurrences_30d": 4
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "trg_080_appointment_tomorrow_m_024_geeta_salon_ba",
+  "scope": "customer",
+  "kind": "appointment_tomorrow",
+  "source": "internal",
+  "merchant_id": "m_024_geeta_salon_bangalore",
+  "customer_id": "c_094_ananya_for_m_024_geeta_salon_bangalore",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "appointment_tomorrow"
+  },
+  "urgency": 2,
+  "suppression_key": "appointment_tomorrow:m_024_geeta_salon_bangalore:gen_80",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

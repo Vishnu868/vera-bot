@@ -1,0 +1,17 @@
+{
+  "id": "trg_007_bridal_followup_kavya",
+  "scope": "customer",
+  "kind": "wedding_package_followup",
+  "source": "internal",
+  "merchant_id": "m_003_studio11_salon_hyderabad",
+  "customer_id": "c_005_kavya_for_m003",
+  "payload": {
+    "wedding_date": "2026-11-08",
+    "trial_completed": "2026-03-22",
+    "days_to_wedding": 196,
+    "next_step_window_open": "skin_prep_program_30day"
+  },
+  "urgency": 2,
+  "suppression_key": "bridal_followup:c_005_kavya_for_m003",
+  "expires_at": "2026-11-08T00:00:00Z"
+}

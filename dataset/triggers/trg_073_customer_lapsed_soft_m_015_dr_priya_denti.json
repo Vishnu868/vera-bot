@@ -1,0 +1,15 @@
+{
+  "id": "trg_073_customer_lapsed_soft_m_015_dr_priya_denti",
+  "scope": "customer",
+  "kind": "customer_lapsed_soft",
+  "source": "internal",
+  "merchant_id": "m_015_dr_priya_dentist_chandigarh",
+  "customer_id": "c_057_aarav_for_m_015_dr_priya_dentist_chandigarh",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "customer_lapsed_soft"
+  },
+  "urgency": 3,
+  "suppression_key": "customer_lapsed_soft:m_015_dr_priya_dentist_chandigarh:gen_73",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

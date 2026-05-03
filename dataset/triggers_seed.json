@@ -1,0 +1,180 @@
+{
+  "_README": "25 representative TriggerContexts spanning external + internal, merchant + customer scope, all kinds. Generator expands to 100.",
+  "triggers": [
+    {
+      "id": "trg_001_research_digest_dentists",
+      "scope": "merchant", "kind": "research_digest", "source": "external",
+      "merchant_id": "m_001_drmeera_dentist_delhi", "customer_id": null,
+      "payload": { "category": "dentists", "top_item_id": "d_2026W17_jida_fluoride" },
+      "urgency": 2, "suppression_key": "research:dentists:2026-W17", "expires_at": "2026-05-03T00:00:00Z"
+    },
+    {
+      "id": "trg_002_compliance_dci_radiograph",
+      "scope": "merchant", "kind": "regulation_change", "source": "external",
+      "merchant_id": "m_001_drmeera_dentist_delhi", "customer_id": null,
+      "payload": { "category": "dentists", "top_item_id": "d_2026W17_dci_radiograph", "deadline_iso": "2026-12-15" },
+      "urgency": 4, "suppression_key": "compliance:dci_radiograph:2026", "expires_at": "2026-12-15T00:00:00Z"
+    },
+    {
+      "id": "trg_003_recall_due_priya",
+      "scope": "customer", "kind": "recall_due", "source": "internal",
+      "merchant_id": "m_001_drmeera_dentist_delhi", "customer_id": "c_001_priya_for_m001",
+      "payload": { "service_due": "6_month_cleaning", "last_service_date": "2026-05-12", "due_date": "2026-11-12", "available_slots": [{ "iso": "2026-11-05T18:00:00+05:30", "label": "Wed 5 Nov, 6pm" }, { "iso": "2026-11-06T17:00:00+05:30", "label": "Thu 6 Nov, 5pm" }] },
+      "urgency": 3, "suppression_key": "recall:c_001_priya_for_m001:6mo", "expires_at": "2026-11-30T00:00:00Z"
+    },
+    {
+      "id": "trg_004_perf_dip_bharat",
+      "scope": "merchant", "kind": "perf_dip", "source": "internal",
+      "merchant_id": "m_002_bharat_dentist_mumbai", "customer_id": null,
+      "payload": { "metric": "calls", "delta_pct": -0.50, "window": "7d", "vs_baseline": 12 },
+      "urgency": 4, "suppression_key": "perf_dip:m_002_bharat_dentist_mumbai:calls:2026-W17", "expires_at": "2026-05-10T00:00:00Z"
+    },
+    {
+      "id": "trg_005_renewal_due_bharat",
+      "scope": "merchant", "kind": "renewal_due", "source": "internal",
+      "merchant_id": "m_002_bharat_dentist_mumbai", "customer_id": null,
+      "payload": { "days_remaining": 12, "plan": "Pro", "renewal_amount": 4999 },
+      "urgency": 4, "suppression_key": "renewal:m_002_bharat_dentist_mumbai:2026-Q2", "expires_at": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "trg_006_festival_diwali",
+      "scope": "merchant", "kind": "festival_upcoming", "source": "external",
+      "merchant_id": "m_003_studio11_salon_hyderabad", "customer_id": null,
+      "payload": { "festival": "Diwali", "date": "2026-10-31", "days_until": 188, "category_relevance": ["salons", "restaurants", "pharmacies"] },
+      "urgency": 1, "suppression_key": "festival:diwali:2026:m_003", "expires_at": "2026-11-02T00:00:00Z"
+    },
+    {
+      "id": "trg_007_bridal_followup_kavya",
+      "scope": "customer", "kind": "wedding_package_followup", "source": "internal",
+      "merchant_id": "m_003_studio11_salon_hyderabad", "customer_id": "c_005_kavya_for_m003",
+      "payload": { "wedding_date": "2026-11-08", "trial_completed": "2026-03-22", "days_to_wedding": 196, "next_step_window_open": "skin_prep_program_30day" },
+      "urgency": 2, "suppression_key": "bridal_followup:c_005_kavya_for_m003", "expires_at": "2026-11-08T00:00:00Z"
+    },
+    {
+      "id": "trg_008_curious_ask_studio11",
+      "scope": "merchant", "kind": "curious_ask_due", "source": "internal",
+      "merchant_id": "m_003_studio11_salon_hyderabad", "customer_id": null,
+      "payload": { "ask_template": "what_service_in_demand_this_week", "last_ask_at": null },
+      "urgency": 1, "suppression_key": "curious_ask:m_003:2026-W17", "expires_at": "2026-05-03T00:00:00Z"
+    },
+    {
+      "id": "trg_009_winback_glamour",
+      "scope": "merchant", "kind": "winback_eligible", "source": "internal",
+      "merchant_id": "m_004_glamour_salon_pune", "customer_id": null,
+      "payload": { "days_since_expiry": 38, "perf_dip_pct": -0.30, "lapsed_customers_added_since_expiry": 24 },
+      "urgency": 2, "suppression_key": "winback:m_004_glamour_salon_pune", "expires_at": "2026-06-15T00:00:00Z"
+    },
+    {
+      "id": "trg_010_ipl_match_delhi",
+      "scope": "merchant", "kind": "ipl_match_today", "source": "external",
+      "merchant_id": "m_005_pizzajunction_restaurant_delhi", "customer_id": null,
+      "payload": { "match": "DC vs MI", "venue": "Arun Jaitley Stadium", "city": "Delhi", "match_time_iso": "2026-04-26T19:30:00+05:30", "is_weeknight": false },
+      "urgency": 3, "suppression_key": "ipl:m_005:2026-04-26", "expires_at": "2026-04-26T23:59:59+05:30"
+    },
+    {
+      "id": "trg_011_review_theme_late_delivery",
+      "scope": "merchant", "kind": "review_theme_emerged", "source": "internal",
+      "merchant_id": "m_005_pizzajunction_restaurant_delhi", "customer_id": null,
+      "payload": { "theme": "delivery_late", "occurrences_30d": 4, "trend": "rising", "common_quote": "took 50 mins for a 15 min ride" },
+      "urgency": 3, "suppression_key": "review_theme:m_005:delivery_late:2026-W17", "expires_at": "2026-05-10T00:00:00Z"
+    },
+    {
+      "id": "trg_012_milestone_mylari",
+      "scope": "merchant", "kind": "milestone_reached", "source": "internal",
+      "merchant_id": "m_006_southindiancafe_restaurant_bangalore", "customer_id": null,
+      "payload": { "metric": "review_count", "value_now": 145, "milestone_value": 150, "is_imminent": true },
+      "urgency": 1, "suppression_key": "milestone:m_006:reviews_150", "expires_at": "2026-05-15T00:00:00Z"
+    },
+    {
+      "id": "trg_013_corporate_thali_planning",
+      "scope": "merchant", "kind": "active_planning_intent", "source": "internal",
+      "merchant_id": "m_006_southindiancafe_restaurant_bangalore", "customer_id": null,
+      "payload": { "intent_topic": "corporate_bulk_thali_package", "merchant_last_message": "Yes good idea, what would it look like" },
+      "urgency": 4, "suppression_key": "planning:m_006:corp_thali:2026-W17", "expires_at": "2026-04-29T00:00:00Z"
+    },
+    {
+      "id": "trg_014_seasonal_acquisition_dip_powerhouse",
+      "scope": "merchant", "kind": "seasonal_perf_dip", "source": "internal",
+      "merchant_id": "m_007_powerhouse_gym_bangalore", "customer_id": null,
+      "payload": { "metric": "views", "delta_pct": -0.30, "window": "7d", "is_expected_seasonal": true, "season_note": "post_resolution_window_apr_jun" },
+      "urgency": 1, "suppression_key": "seasonal_dip:m_007:2026-Q2", "expires_at": "2026-06-30T00:00:00Z"
+    },
+    {
+      "id": "trg_015_winback_rashmi",
+      "scope": "customer", "kind": "customer_lapsed_hard", "source": "internal",
+      "merchant_id": "m_007_powerhouse_gym_bangalore", "customer_id": "c_010_rashmi_for_m007",
+      "payload": { "days_since_last_visit": 57, "previous_focus": "weight_loss", "previous_membership_months": 5 },
+      "urgency": 3, "suppression_key": "winback:c_010_rashmi_for_m007", "expires_at": "2026-06-15T00:00:00Z"
+    },
+    {
+      "id": "trg_016_kids_yoga_program_drafting",
+      "scope": "merchant", "kind": "active_planning_intent", "source": "internal",
+      "merchant_id": "m_008_zenyoga_gym_chennai", "customer_id": null,
+      "payload": { "intent_topic": "kids_yoga_summer_camp", "merchant_last_message": "Hi I want to add a kids yoga program — what should it look like?" },
+      "urgency": 4, "suppression_key": "planning:m_008:kids_yoga:2026-W17", "expires_at": "2026-04-30T00:00:00Z"
+    },
+    {
+      "id": "trg_017_kids_yoga_trial_followup_karthik",
+      "scope": "customer", "kind": "trial_followup", "source": "internal",
+      "merchant_id": "m_008_zenyoga_gym_chennai", "customer_id": "c_012_karthik_jr_for_m008",
+      "payload": { "trial_date": "2026-04-22", "next_session_options": [{ "iso": "2026-05-03T08:00:00+05:30", "label": "Sat 3 May, 8am" }] },
+      "urgency": 2, "suppression_key": "trial_followup:c_012_karthik_jr_for_m008", "expires_at": "2026-05-10T00:00:00Z"
+    },
+    {
+      "id": "trg_018_supply_atorvastatin_recall",
+      "scope": "merchant", "kind": "supply_alert", "source": "external",
+      "merchant_id": "m_009_apollo_pharmacy_jaipur", "customer_id": null,
+      "payload": { "alert_id": "d_2026W17_atorvastatin_recall", "molecule": "atorvastatin", "affected_batches": ["AT2024-1102", "AT2024-1108"], "manufacturer": "MfrZ" },
+      "urgency": 5, "suppression_key": "alert:atorvastatin:2026-04", "expires_at": "2026-05-30T00:00:00Z"
+    },
+    {
+      "id": "trg_019_chronic_refill_grandfather",
+      "scope": "customer", "kind": "chronic_refill_due", "source": "internal",
+      "merchant_id": "m_009_apollo_pharmacy_jaipur", "customer_id": "c_013_grandfather_for_m009",
+      "payload": { "molecule_list": ["metformin", "atorvastatin", "telmisartan"], "last_refill": "2026-03-26", "stock_runs_out_iso": "2026-04-28T00:00:00+05:30", "delivery_address_saved": true },
+      "urgency": 3, "suppression_key": "refill:c_013_grandfather_for_m009:2026-04", "expires_at": "2026-04-28T00:00:00+05:30"
+    },
+    {
+      "id": "trg_020_summer_demand_shift",
+      "scope": "merchant", "kind": "category_seasonal", "source": "external",
+      "merchant_id": "m_009_apollo_pharmacy_jaipur", "customer_id": null,
+      "payload": { "season": "summer_2026", "trends": ["ORS_demand_+40", "sunscreen_demand_+38", "antifungal_demand_+45", "cold_cough_demand_-60"], "shelf_action_recommended": true },
+      "urgency": 2, "suppression_key": "season:summer:m_009:2026", "expires_at": "2026-06-30T00:00:00Z"
+    },
+    {
+      "id": "trg_021_unverified_gbp_sunrise",
+      "scope": "merchant", "kind": "gbp_unverified", "source": "internal",
+      "merchant_id": "m_010_sunrisepharm_pharmacy_lucknow", "customer_id": null,
+      "payload": { "verified": false, "verification_path": "postcard_or_phone_call", "estimated_uplift_pct": 0.30 },
+      "urgency": 3, "suppression_key": "unverified:m_010", "expires_at": "2026-05-30T00:00:00Z"
+    },
+    {
+      "id": "trg_022_cde_webinar_dentists",
+      "scope": "merchant", "kind": "cde_opportunity", "source": "external",
+      "merchant_id": "m_001_drmeera_dentist_delhi", "customer_id": null,
+      "payload": { "digest_item_id": "d_2026W17_ida_webinar", "credits": 2, "fee": "free_for_members" },
+      "urgency": 1, "suppression_key": "cde:dentists:2026-05-02", "expires_at": "2026-05-02T19:00:00+05:30"
+    },
+    {
+      "id": "trg_023_competitor_opened_dentist",
+      "scope": "merchant", "kind": "competitor_opened", "source": "external",
+      "merchant_id": "m_001_drmeera_dentist_delhi", "customer_id": null,
+      "payload": { "competitor_name": "Smile Studio", "distance_km": 1.3, "their_offer": "Dental Cleaning @ ₹199", "opened_date": "2026-04-08" },
+      "urgency": 2, "suppression_key": "competitor:m_001:smile_studio", "expires_at": "2026-06-08T00:00:00Z"
+    },
+    {
+      "id": "trg_024_perf_spike_zen",
+      "scope": "merchant", "kind": "perf_spike", "source": "internal",
+      "merchant_id": "m_008_zenyoga_gym_chennai", "customer_id": null,
+      "payload": { "metric": "calls", "delta_pct": 0.15, "window": "7d", "vs_baseline": 18, "likely_driver": "kids_yoga_post" },
+      "urgency": 1, "suppression_key": "perf_spike:m_008:calls:2026-W17", "expires_at": "2026-05-03T00:00:00Z"
+    },
+    {
+      "id": "trg_025_dormancy_glamour",
+      "scope": "merchant", "kind": "dormant_with_vera", "source": "internal",
+      "merchant_id": "m_004_glamour_salon_pune", "customer_id": null,
+      "payload": { "days_since_last_merchant_message": 38, "last_topic": "subscription_expiry" },
+      "urgency": 2, "suppression_key": "dormant:m_004:30d", "expires_at": "2026-05-30T00:00:00Z"
+    }
+  ]
+}

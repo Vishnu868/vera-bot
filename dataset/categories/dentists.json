@@ -1,0 +1,237 @@
+{
+  "slug": "dentists",
+  "display_name": "Dentists",
+  "voice": {
+    "tone": "peer_clinical",
+    "register": "respectful_collegial",
+    "code_mix": "hindi_english_natural",
+    "vocab_allowed": [
+      "fluoride varnish",
+      "scaling",
+      "caries",
+      "occlusion",
+      "bruxism",
+      "endodontic",
+      "periodontal",
+      "implant",
+      "aligner",
+      "veneer",
+      "OPG",
+      "IOPA",
+      "RCT",
+      "CAD/CAM",
+      "zirconia",
+      "PFM"
+    ],
+    "vocab_taboo": [
+      "guaranteed",
+      "100% safe",
+      "completely cure",
+      "miracle",
+      "best in city",
+      "doctor approved",
+      "FDA-approved (use only when actually applicable)"
+    ],
+    "salutation_examples": [
+      "Dr. {first_name}",
+      "Doc"
+    ],
+    "tone_examples": [
+      "Worth a look — JIDA Oct 2026 p.14",
+      "This one likely affects your high-risk adult cohort",
+      "If your case-mix is mostly cosmetic, may not be relevant"
+    ]
+  },
+  "offer_catalog": [
+    {
+      "id": "den_001",
+      "title": "Dental Cleaning @ ₹299",
+      "value": "299",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "den_002",
+      "title": "Free Consultation",
+      "value": "0",
+      "audience": "new_user",
+      "type": "free_service"
+    },
+    {
+      "id": "den_003",
+      "title": "Teeth Whitening @ ₹1,499",
+      "value": "1499",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "den_004",
+      "title": "Root Canal @ ₹2,999 (single rooted)",
+      "value": "2999",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "den_005",
+      "title": "Free Smile Analysis + Digital Scan",
+      "value": "0",
+      "audience": "new_user",
+      "type": "free_service"
+    },
+    {
+      "id": "den_006",
+      "title": "Aligner Consultation @ ₹499",
+      "value": "499",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "den_007",
+      "title": "Pediatric Dental Checkup @ ₹199",
+      "value": "199",
+      "audience": "new_user",
+      "type": "service_at_price"
+    },
+    {
+      "id": "den_008",
+      "title": "Annual Family Dental Plan @ ₹4,999",
+      "value": "4999",
+      "audience": "repeat_user",
+      "type": "membership"
+    }
+  ],
+  "peer_stats": {
+    "scope": "metro_solo_practices_2026",
+    "avg_rating": 4.4,
+    "avg_review_count": 62,
+    "avg_views_30d": 1820,
+    "avg_calls_30d": 12,
+    "avg_directions_30d": 38,
+    "avg_ctr": 0.03,
+    "avg_photos": 9,
+    "avg_post_freq_days": 14,
+    "retention_6mo_pct": 0.42
+  },
+  "digest": [
+    {
+      "id": "d_2026W17_jida_fluoride",
+      "kind": "research",
+      "title": "3-month fluoride varnish recall outperforms 6-month for high-risk adult caries",
+      "source": "JIDA Oct 2026, p.14",
+      "trial_n": 2100,
+      "patient_segment": "high_risk_adults",
+      "summary": "Multi-center Indian trial shows 38% lower caries recurrence with 3-month vs 6-month recall in adults with active decay history. No effect in low-risk patients.",
+      "actionable": "Reassess recall interval for adults flagged high-risk in your charting"
+    },
+    {
+      "id": "d_2026W17_dci_radiograph",
+      "kind": "compliance",
+      "title": "DCI revised radiograph dose limits effective 2026-12-15",
+      "source": "Dental Council of India circular 2026-11-04",
+      "summary": "Maximum dose per IOPA exposure drops from 1.5 mSv to 1.0 mSv. E-speed film passes at the new limit; D-speed does not. Digital RVG sensors unaffected.",
+      "actionable": "Audit your X-ray setup before Dec 15; document E-speed or RVG in your SOPs"
+    },
+    {
+      "id": "d_2026W17_ida_webinar",
+      "kind": "cde",
+      "title": "IDA Delhi: Digital impressions — 2026 state of the art",
+      "source": "IDA Delhi chapter calendar",
+      "date": "2026-05-02T19:00:00+05:30",
+      "credits": 2,
+      "summary": "Speaker: Dr. R. Mehta. Covers Primescan 2, Trios 5, and CAD/CAM workflow ROI for solo practices.",
+      "actionable": "Free for IDA members; ₹500 for non-members"
+    },
+    {
+      "id": "d_2026W17_aligner_trend",
+      "kind": "trend",
+      "title": "Clear aligner consultations searches +62% YoY in metros",
+      "source": "Practo + Google Trends, Apr 2026",
+      "summary": "'Clear aligners near me' query growth concentrated in 28-45 age band; female-skewed. Pricing pressure as DIY aligner brands hit the market.",
+      "actionable": "Position your supervised-aligner offer against DIY in your GBP description"
+    },
+    {
+      "id": "d_2026W17_e_max_press",
+      "kind": "tech",
+      "title": "Dentsply launches IPS e.max Press for zirconia crowns in India at ₹3,200/unit (Delhi labs)",
+      "source": "Dentsply India launch note 2026-04-18",
+      "summary": "Better aesthetic, similar fracture resistance to standard zirconia. Two Delhi labs (Dental Direkt, Siam Dental) confirmed stocking. Shared-lease scanner deals available.",
+      "actionable": "Worth comparing if crown work is >15% of monthly revenue"
+    }
+  ],
+  "patient_content_library": [
+    {
+      "id": "pc_oral_heart",
+      "title": "3 things your teeth tell you about your heart",
+      "channel": "whatsapp",
+      "length_seconds": 90,
+      "body": "Periodontal disease shares inflammation pathways with cardiovascular disease. Bleeding gums, persistent bad breath, and loose teeth in middle age are early signals. A 2024 meta-analysis of 18 studies found periodontal patients had 22% higher CVD events. The simplest action: scaling every 6 months reduces both gum and inflammation markers."
+    },
+    {
+      "id": "pc_kid_brushing",
+      "title": "Why your child resists brushing — and what to try this week",
+      "channel": "whatsapp",
+      "length_seconds": 60,
+      "body": "Most resistance under age 7 is sensory, not behavioural. Try: (1) a softer brush than you think necessary, (2) brushing in front of a mirror so they see what's happening, (3) two minutes of music as the timer. If resistance persists past 4 weeks, it's worth a pediatric dental consult."
+    },
+    {
+      "id": "pc_aligner_vs_braces",
+      "title": "Aligners or braces? What I tell my patients in their 30s",
+      "channel": "whatsapp",
+      "length_seconds": 75,
+      "body": "Aligners work for ~70% of cases — mild-to-moderate crowding, spacing, and minor rotations. Braces still win for severe rotations, deep bites, and skeletal corrections. The tell: if you can't keep aligners on for 22 hours/day, braces are the safer choice."
+    }
+  ],
+  "seasonal_beats": [
+    {
+      "month_range": "Nov-Feb",
+      "note": "exam-stress bruxism spike — ortho consults rise 30% in 18-24 cohort"
+    },
+    {
+      "month_range": "Oct-Dec",
+      "note": "wedding whitening peak — bookings 2x baseline; ladies' segment dominant"
+    },
+    {
+      "month_range": "Jan",
+      "note": "new-year resolution surge — annual check-up bookings +40%"
+    },
+    {
+      "month_range": "Apr-Jun",
+      "note": "school holiday window — pediatric appointments +50%"
+    }
+  ],
+  "trend_signals": [
+    {
+      "query": "clear aligners delhi",
+      "delta_yoy": 0.62,
+      "segment_age": "28-45",
+      "skew": "female"
+    },
+    {
+      "query": "teeth whitening price",
+      "delta_yoy": 0.41,
+      "segment_age": "all",
+      "skew": "balanced"
+    },
+    {
+      "query": "dental implants near me",
+      "delta_yoy": 0.18,
+      "segment_age": "45-65",
+      "skew": "male"
+    },
+    {
+      "query": "kids first dental visit",
+      "delta_yoy": 0.27,
+      "segment_age": "parents_25-40",
+      "skew": "female"
+    }
+  ],
+  "regulatory_authorities": [
+    "Dental Council of India (DCI)",
+    "Indian Dental Association (IDA)"
+  ],
+  "professional_journals": [
+    "JIDA",
+    "Indian Journal of Dental Research",
+    "Dental Tribune India"
+  ]
+}

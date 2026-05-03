@@ -1,0 +1,42 @@
+{
+  "merchant_id": "m_023_sushma_salon_pune",
+  "category_slug": "salons",
+  "identity": {
+    "name": "The Beauty Bar",
+    "city": "Pune",
+    "locality": "Baner",
+    "place_id": "ChIJ_BANER_SALONS_023",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Sushma",
+    "established_year": 2016
+  },
+  "subscription": {
+    "status": "expired",
+    "plan": "Pro",
+    "days_remaining": 0,
+    "days_since_expiry": 39
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 2547,
+    "calls": 22,
+    "directions": 50,
+    "ctr": 0.058,
+    "leads": 10,
+    "delta_7d": {
+      "views_pct": 0.08,
+      "calls_pct": 0.02
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 1454
+  },
+  "signals": [],
+  "review_themes": []
+}

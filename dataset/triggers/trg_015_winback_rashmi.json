@@ -1,0 +1,16 @@
+{
+  "id": "trg_015_winback_rashmi",
+  "scope": "customer",
+  "kind": "customer_lapsed_hard",
+  "source": "internal",
+  "merchant_id": "m_007_powerhouse_gym_bangalore",
+  "customer_id": "c_010_rashmi_for_m007",
+  "payload": {
+    "days_since_last_visit": 57,
+    "previous_focus": "weight_loss",
+    "previous_membership_months": 5
+  },
+  "urgency": 3,
+  "suppression_key": "winback:c_010_rashmi_for_m007",
+  "expires_at": "2026-06-15T00:00:00Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "trg_006_festival_diwali",
+  "scope": "merchant",
+  "kind": "festival_upcoming",
+  "source": "external",
+  "merchant_id": "m_003_studio11_salon_hyderabad",
+  "customer_id": null,
+  "payload": {
+    "festival": "Diwali",
+    "date": "2026-10-31",
+    "days_until": 188,
+    "category_relevance": [
+      "salons",
+      "restaurants",
+      "pharmacies"
+    ]
+  },
+  "urgency": 1,
+  "suppression_key": "festival:diwali:2026:m_003",
+  "expires_at": "2026-11-02T00:00:00Z"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "trg_036_perf_spike_m_010_sunrisepharm_p",
+  "scope": "merchant",
+  "kind": "perf_spike",
+  "source": "internal",
+  "merchant_id": "m_010_sunrisepharm_pharmacy_lucknow",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "perf_spike"
+  },
+  "urgency": 1,
+  "suppression_key": "perf_spike:m_010_sunrisepharm_pharmacy_lucknow:gen_36",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

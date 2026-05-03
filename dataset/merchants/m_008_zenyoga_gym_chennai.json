@@ -1,0 +1,85 @@
+{
+  "merchant_id": "m_008_zenyoga_gym_chennai",
+  "category_slug": "gyms",
+  "identity": {
+    "name": "Zen Yoga Studio",
+    "city": "Chennai",
+    "locality": "Mylapore",
+    "place_id": "ChIJ_MYLAPORE_GYM_008",
+    "verified": true,
+    "languages": [
+      "en",
+      "ta",
+      "hi"
+    ],
+    "owner_first_name": "Padma",
+    "established_year": 2017
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 180
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 880,
+    "calls": 18,
+    "directions": 38,
+    "ctr": 0.062,
+    "leads": 12,
+    "delta_7d": {
+      "views_pct": 0.1,
+      "calls_pct": 0.15
+    }
+  },
+  "offers": [
+    {
+      "id": "o_zen_001",
+      "title": "First Month @ ₹499",
+      "status": "active",
+      "started": "2026-03-01"
+    },
+    {
+      "id": "o_zen_002",
+      "title": "Free Body Composition Analysis",
+      "status": "active",
+      "started": "2026-03-01"
+    }
+  ],
+  "conversation_history": [
+    {
+      "ts": "2026-04-23T09:00:00Z",
+      "from": "merchant",
+      "body": "Hi I want to add a kids yoga program — what should it look like?",
+      "engagement": "intent_planning"
+    },
+    {
+      "ts": "2026-04-23T09:05:00Z",
+      "from": "vera",
+      "body": "Great idea — kids yoga summer camps are peaking now. Suggest 4-week program, 3 classes/week, age 7-12, ₹2,499. Want me to draft the GBP post + Insta carousel?",
+      "engagement": "merchant_replied"
+    }
+  ],
+  "customer_aggregate": {
+    "total_active_members": 95,
+    "monthly_churn_pct": 0.05,
+    "trial_to_paid_pct": 0.55
+  },
+  "signals": [
+    "high_retention",
+    "active_planning",
+    "boutique_segment"
+  ],
+  "review_themes": [
+    {
+      "theme": "instructor_quality",
+      "sentiment": "pos",
+      "occurrences_30d": 9
+    },
+    {
+      "theme": "small_classes",
+      "sentiment": "pos",
+      "occurrences_30d": 6
+    }
+  ]
+}

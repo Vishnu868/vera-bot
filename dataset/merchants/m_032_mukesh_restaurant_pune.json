@@ -1,0 +1,42 @@
+{
+  "merchant_id": "m_032_mukesh_restaurant_pune",
+  "category_slug": "restaurants",
+  "identity": {
+    "name": "Pizza Spot",
+    "city": "Pune",
+    "locality": "Aundh",
+    "place_id": "ChIJ_AUNDH_RESTAURANTS_032",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Mukesh",
+    "established_year": 2010
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 90,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 787,
+    "calls": 5,
+    "directions": 13,
+    "ctr": 0.053,
+    "leads": 0,
+    "delta_7d": {
+      "views_pct": 0.14,
+      "calls_pct": -0.24
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 889
+  },
+  "signals": [],
+  "review_themes": []
+}

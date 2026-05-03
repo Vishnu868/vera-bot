@@ -1,0 +1,43 @@
+{
+  "merchant_id": "m_025_salim_salon_mumbai",
+  "category_slug": "salons",
+  "identity": {
+    "name": "Studio Cuts",
+    "city": "Mumbai",
+    "locality": "Vile Parle",
+    "place_id": "ChIJ_VILE_PARLE_SALONS_025",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi",
+      "mr"
+    ],
+    "owner_first_name": "Salim",
+    "established_year": 2011
+  },
+  "subscription": {
+    "status": "expired",
+    "plan": "Pro",
+    "days_remaining": 0,
+    "days_since_expiry": 89
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 4061,
+    "calls": 31,
+    "directions": 75,
+    "ctr": 0.045,
+    "leads": 14,
+    "delta_7d": {
+      "views_pct": 0.06,
+      "calls_pct": 0.2
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 1298
+  },
+  "signals": [],
+  "review_themes": []
+}

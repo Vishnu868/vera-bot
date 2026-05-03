@@ -1,0 +1,15 @@
+{
+  "id": "trg_052_review_theme_emerged_m_035_manisha_gym_de",
+  "scope": "merchant",
+  "kind": "review_theme_emerged",
+  "source": "internal",
+  "merchant_id": "m_035_manisha_gym_delhi",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "review_theme_emerged"
+  },
+  "urgency": 3,
+  "suppression_key": "review_theme_emerged:m_035_manisha_gym_delhi:gen_52",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

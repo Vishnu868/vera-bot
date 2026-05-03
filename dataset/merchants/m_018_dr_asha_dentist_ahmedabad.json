@@ -1,0 +1,42 @@
+{
+  "merchant_id": "m_018_dr_asha_dentist_ahmedabad",
+  "category_slug": "dentists",
+  "identity": {
+    "name": "Asha Dental Care",
+    "city": "Ahmedabad",
+    "locality": "Thaltej",
+    "place_id": "ChIJ_THALTEJ_DENTISTS_018",
+    "verified": false,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Dr. Asha",
+    "established_year": 2019
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 159,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 2105,
+    "calls": 23,
+    "directions": 62,
+    "ctr": 0.034,
+    "leads": 22,
+    "delta_7d": {
+      "views_pct": -0.01,
+      "calls_pct": 0.14
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 1980
+  },
+  "signals": [],
+  "review_themes": []
+}

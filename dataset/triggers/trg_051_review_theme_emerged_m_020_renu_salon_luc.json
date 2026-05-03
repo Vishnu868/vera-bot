@@ -1,0 +1,15 @@
+{
+  "id": "trg_051_review_theme_emerged_m_020_renu_salon_luc",
+  "scope": "merchant",
+  "kind": "review_theme_emerged",
+  "source": "internal",
+  "merchant_id": "m_020_renu_salon_lucknow",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "review_theme_emerged"
+  },
+  "urgency": 3,
+  "suppression_key": "review_theme_emerged:m_020_renu_salon_lucknow:gen_51",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

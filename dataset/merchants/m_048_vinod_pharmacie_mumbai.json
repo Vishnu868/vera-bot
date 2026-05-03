@@ -1,0 +1,43 @@
+{
+  "merchant_id": "m_048_vinod_pharmacie_mumbai",
+  "category_slug": "pharmacies",
+  "identity": {
+    "name": "Family Health Pharmacy",
+    "city": "Mumbai",
+    "locality": "Borivali",
+    "place_id": "ChIJ_BORIVALI_PHARMACIES_048",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi",
+      "mr"
+    ],
+    "owner_first_name": "Vinod",
+    "established_year": 2011
+  },
+  "subscription": {
+    "status": "trial",
+    "plan": "Trial",
+    "days_remaining": 5,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 5870,
+    "calls": 12,
+    "directions": 42,
+    "ctr": 0.019,
+    "leads": 3,
+    "delta_7d": {
+      "views_pct": -0.1,
+      "calls_pct": 0.18
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 222
+  },
+  "signals": [],
+  "review_themes": []
+}

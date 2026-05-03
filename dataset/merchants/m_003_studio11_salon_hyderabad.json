@@ -1,0 +1,81 @@
+{
+  "merchant_id": "m_003_studio11_salon_hyderabad",
+  "category_slug": "salons",
+  "identity": {
+    "name": "Studio11 Family Salon",
+    "city": "Hyderabad",
+    "locality": "Kapra",
+    "place_id": "ChIJ_KAPRA_SALON_003",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi",
+      "te"
+    ],
+    "owner_first_name": "Lakshmi",
+    "established_year": 2019
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 145
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 4980,
+    "calls": 62,
+    "directions": 142,
+    "ctr": 0.048,
+    "leads": 38,
+    "delta_7d": {
+      "views_pct": 0.14,
+      "calls_pct": 0.2,
+      "ctr_pct": 0.05
+    }
+  },
+  "offers": [
+    {
+      "id": "o_studio11_001",
+      "title": "Haircut @ ₹99",
+      "status": "active",
+      "started": "2026-03-01"
+    },
+    {
+      "id": "o_studio11_002",
+      "title": "Hair Spa @ ₹499",
+      "status": "active",
+      "started": "2026-03-15"
+    }
+  ],
+  "conversation_history": [
+    {
+      "ts": "2026-04-22T15:00:00Z",
+      "from": "vera",
+      "body": "Spotted: bridal-trial searches in Kapra +28% this week. Want me to push your bridal package as a GBP post?",
+      "engagement": "merchant_no_reply"
+    }
+  ],
+  "customer_aggregate": {
+    "total_unique_ytd": 1150,
+    "lapsed_90d_plus": 220,
+    "retention_3mo_pct": 0.62
+  },
+  "signals": [
+    "high_engagement",
+    "above_peer_median_calls",
+    "growing_views_7d"
+  ],
+  "review_themes": [
+    {
+      "theme": "stylist_skill",
+      "sentiment": "pos",
+      "occurrences_30d": 12,
+      "common_quote": "Priya is the best for balayage"
+    },
+    {
+      "theme": "saturday_wait",
+      "sentiment": "neg",
+      "occurrences_30d": 2
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "merchant_id": "m_044_vinod_pharmacie_chennai",
+  "category_slug": "pharmacies",
+  "identity": {
+    "name": "Family Health Pharmacy",
+    "city": "Chennai",
+    "locality": "Porur",
+    "place_id": "ChIJ_PORUR_PHARMACIES_044",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi",
+      "ta"
+    ],
+    "owner_first_name": "Vinod",
+    "established_year": 2019
+  },
+  "subscription": {
+    "status": "expired",
+    "plan": "Pro",
+    "days_remaining": 0,
+    "days_since_expiry": 59
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 3421,
+    "calls": 28,
+    "directions": 79,
+    "ctr": 0.025,
+    "leads": 10,
+    "delta_7d": {
+      "views_pct": 0.25,
+      "calls_pct": 0.05
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 1473
+  },
+  "signals": [],
+  "review_themes": []
+}

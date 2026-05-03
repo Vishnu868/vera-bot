@@ -1,0 +1,43 @@
+{
+  "merchant_id": "m_050_bharti_pharmacie_chennai",
+  "category_slug": "pharmacies",
+  "identity": {
+    "name": "Wellness Cart",
+    "city": "Chennai",
+    "locality": "OMR",
+    "place_id": "ChIJ_OMR_PHARMACIES_050",
+    "verified": false,
+    "languages": [
+      "en",
+      "hi",
+      "ta"
+    ],
+    "owner_first_name": "Bharti",
+    "established_year": 2021
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 16,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 895,
+    "calls": 6,
+    "directions": 25,
+    "ctr": 0.044,
+    "leads": 4,
+    "delta_7d": {
+      "views_pct": -0.23,
+      "calls_pct": -0.01
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 1535
+  },
+  "signals": [],
+  "review_themes": []
+}

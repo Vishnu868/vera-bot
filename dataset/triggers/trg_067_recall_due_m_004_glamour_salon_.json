@@ -1,0 +1,15 @@
+{
+  "id": "trg_067_recall_due_m_004_glamour_salon_",
+  "scope": "customer",
+  "kind": "recall_due",
+  "source": "internal",
+  "merchant_id": "m_004_glamour_salon_pune",
+  "customer_id": "c_026_saanvi_for_m_004_glamour_salon_pune",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "recall_due"
+  },
+  "urgency": 3,
+  "suppression_key": "recall_due:m_004_glamour_salon_pune:gen_67",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

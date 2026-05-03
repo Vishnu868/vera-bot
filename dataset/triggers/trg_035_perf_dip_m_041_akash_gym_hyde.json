@@ -1,0 +1,15 @@
+{
+  "id": "trg_035_perf_dip_m_041_akash_gym_hyde",
+  "scope": "merchant",
+  "kind": "perf_dip",
+  "source": "internal",
+  "merchant_id": "m_041_akash_gym_hyderabad",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "perf_dip"
+  },
+  "urgency": 3,
+  "suppression_key": "perf_dip:m_041_akash_gym_hyderabad:gen_35",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

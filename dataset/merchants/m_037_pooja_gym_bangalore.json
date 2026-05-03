@@ -1,0 +1,43 @@
+{
+  "merchant_id": "m_037_pooja_gym_bangalore",
+  "category_slug": "gyms",
+  "identity": {
+    "name": "Bend & Burn",
+    "city": "Bangalore",
+    "locality": "Koramangala",
+    "place_id": "ChIJ_KORAMANGALA_GYMS_037",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi",
+      "kn"
+    ],
+    "owner_first_name": "Pooja",
+    "established_year": 2019
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 162,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 5934,
+    "calls": 65,
+    "directions": 148,
+    "ctr": 0.042,
+    "leads": 31,
+    "delta_7d": {
+      "views_pct": -0.07,
+      "calls_pct": 0.06
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 387
+  },
+  "signals": [],
+  "review_themes": []
+}

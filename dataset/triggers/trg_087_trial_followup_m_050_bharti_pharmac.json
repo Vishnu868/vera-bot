@@ -1,0 +1,15 @@
+{
+  "id": "trg_087_trial_followup_m_050_bharti_pharmac",
+  "scope": "customer",
+  "kind": "trial_followup",
+  "source": "internal",
+  "merchant_id": "m_050_bharti_pharmacie_chennai",
+  "customer_id": "c_197_anika_for_m_050_bharti_pharmacie_chennai",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "trial_followup"
+  },
+  "urgency": 2,
+  "suppression_key": "trial_followup:m_050_bharti_pharmacie_chennai:gen_87",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

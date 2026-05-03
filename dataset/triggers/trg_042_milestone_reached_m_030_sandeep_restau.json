@@ -1,0 +1,15 @@
+{
+  "id": "trg_042_milestone_reached_m_030_sandeep_restau",
+  "scope": "merchant",
+  "kind": "milestone_reached",
+  "source": "internal",
+  "merchant_id": "m_030_sandeep_restaurant_chandigarh",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "milestone_reached"
+  },
+  "urgency": 1,
+  "suppression_key": "milestone_reached:m_030_sandeep_restaurant_chandigarh:gen_42",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

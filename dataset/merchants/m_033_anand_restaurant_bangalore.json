@@ -1,0 +1,43 @@
+{
+  "merchant_id": "m_033_anand_restaurant_bangalore",
+  "category_slug": "restaurants",
+  "identity": {
+    "name": "Chai Point Cafe",
+    "city": "Bangalore",
+    "locality": "BTM Layout",
+    "place_id": "ChIJ_BTM_LAYOUT_RESTAURANTS_033",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi",
+      "kn"
+    ],
+    "owner_first_name": "Anand",
+    "established_year": 2021
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 211,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 2349,
+    "calls": 13,
+    "directions": 52,
+    "ctr": 0.025,
+    "leads": 2,
+    "delta_7d": {
+      "views_pct": 0.13,
+      "calls_pct": -0.04
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 1012
+  },
+  "signals": [],
+  "review_themes": []
+}

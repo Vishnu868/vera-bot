@@ -1,0 +1,15 @@
+{
+  "id": "trg_077_appointment_tomorrow_m_020_renu_salon_luc",
+  "scope": "customer",
+  "kind": "appointment_tomorrow",
+  "source": "internal",
+  "merchant_id": "m_020_renu_salon_lucknow",
+  "customer_id": "c_080_riya_for_m_020_renu_salon_lucknow",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "appointment_tomorrow"
+  },
+  "urgency": 2,
+  "suppression_key": "appointment_tomorrow:m_020_renu_salon_lucknow:gen_77",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

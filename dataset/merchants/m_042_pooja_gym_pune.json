@@ -1,0 +1,42 @@
+{
+  "merchant_id": "m_042_pooja_gym_pune",
+  "category_slug": "gyms",
+  "identity": {
+    "name": "Bend & Burn",
+    "city": "Pune",
+    "locality": "Aundh",
+    "place_id": "ChIJ_AUNDH_GYMS_042",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Pooja",
+    "established_year": 2017
+  },
+  "subscription": {
+    "status": "trial",
+    "plan": "Trial",
+    "days_remaining": 10,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 5509,
+    "calls": 47,
+    "directions": 99,
+    "ctr": 0.059,
+    "leads": 15,
+    "delta_7d": {
+      "views_pct": -0.12,
+      "calls_pct": -0.27
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 667
+  },
+  "signals": [],
+  "review_themes": []
+}

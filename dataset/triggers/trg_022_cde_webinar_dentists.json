@@ -1,0 +1,16 @@
+{
+  "id": "trg_022_cde_webinar_dentists",
+  "scope": "merchant",
+  "kind": "cde_opportunity",
+  "source": "external",
+  "merchant_id": "m_001_drmeera_dentist_delhi",
+  "customer_id": null,
+  "payload": {
+    "digest_item_id": "d_2026W17_ida_webinar",
+    "credits": 2,
+    "fee": "free_for_members"
+  },
+  "urgency": 1,
+  "suppression_key": "cde:dentists:2026-05-02",
+  "expires_at": "2026-05-02T19:00:00+05:30"
+}

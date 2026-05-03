@@ -1,0 +1,17 @@
+{
+  "id": "trg_004_perf_dip_bharat",
+  "scope": "merchant",
+  "kind": "perf_dip",
+  "source": "internal",
+  "merchant_id": "m_002_bharat_dentist_mumbai",
+  "customer_id": null,
+  "payload": {
+    "metric": "calls",
+    "delta_pct": -0.5,
+    "window": "7d",
+    "vs_baseline": 12
+  },
+  "urgency": 4,
+  "suppression_key": "perf_dip:m_002_bharat_dentist_mumbai:calls:2026-W17",
+  "expires_at": "2026-05-10T00:00:00Z"
+}

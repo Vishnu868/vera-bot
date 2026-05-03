@@ -1,0 +1,15 @@
+{
+  "id": "trg_083_chronic_refill_due_m_041_akash_gym_hyde",
+  "scope": "customer",
+  "kind": "chronic_refill_due",
+  "source": "internal",
+  "merchant_id": "m_041_akash_gym_hyderabad",
+  "customer_id": "c_163_aryan_for_m_041_akash_gym_hyderabad",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "chronic_refill_due"
+  },
+  "urgency": 2,
+  "suppression_key": "chronic_refill_due:m_041_akash_gym_hyderabad:gen_83",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

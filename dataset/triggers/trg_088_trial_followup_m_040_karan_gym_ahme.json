@@ -1,0 +1,15 @@
+{
+  "id": "trg_088_trial_followup_m_040_karan_gym_ahme",
+  "scope": "customer",
+  "kind": "trial_followup",
+  "source": "internal",
+  "merchant_id": "m_040_karan_gym_ahmedabad",
+  "customer_id": "c_160_kavya_for_m_040_karan_gym_ahmedabad",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "trial_followup"
+  },
+  "urgency": 2,
+  "suppression_key": "trial_followup:m_040_karan_gym_ahmedabad:gen_88",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

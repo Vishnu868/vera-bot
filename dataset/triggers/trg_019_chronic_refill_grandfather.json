@@ -1,0 +1,21 @@
+{
+  "id": "trg_019_chronic_refill_grandfather",
+  "scope": "customer",
+  "kind": "chronic_refill_due",
+  "source": "internal",
+  "merchant_id": "m_009_apollo_pharmacy_jaipur",
+  "customer_id": "c_013_grandfather_for_m009",
+  "payload": {
+    "molecule_list": [
+      "metformin",
+      "atorvastatin",
+      "telmisartan"
+    ],
+    "last_refill": "2026-03-26",
+    "stock_runs_out_iso": "2026-04-28T00:00:00+05:30",
+    "delivery_address_saved": true
+  },
+  "urgency": 3,
+  "suppression_key": "refill:c_013_grandfather_for_m009:2026-04",
+  "expires_at": "2026-04-28T00:00:00+05:30"
+}

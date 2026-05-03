@@ -1,0 +1,18 @@
+{
+  "id": "trg_010_ipl_match_delhi",
+  "scope": "merchant",
+  "kind": "ipl_match_today",
+  "source": "external",
+  "merchant_id": "m_005_pizzajunction_restaurant_delhi",
+  "customer_id": null,
+  "payload": {
+    "match": "DC vs MI",
+    "venue": "Arun Jaitley Stadium",
+    "city": "Delhi",
+    "match_time_iso": "2026-04-26T19:30:00+05:30",
+    "is_weeknight": false
+  },
+  "urgency": 3,
+  "suppression_key": "ipl:m_005:2026-04-26",
+  "expires_at": "2026-04-26T23:59:59+05:30"
+}

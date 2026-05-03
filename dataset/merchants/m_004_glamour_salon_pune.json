@@ -1,0 +1,56 @@
+{
+  "merchant_id": "m_004_glamour_salon_pune",
+  "category_slug": "salons",
+  "identity": {
+    "name": "Glamour Lounge Spa & Salon",
+    "city": "Pune",
+    "locality": "Aundh",
+    "place_id": "ChIJ_AUNDH_SALON_004",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi",
+      "mr"
+    ],
+    "owner_first_name": "Anjali",
+    "established_year": 2021
+  },
+  "subscription": {
+    "status": "expired",
+    "plan": "Pro",
+    "days_since_expiry": 38
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 1200,
+    "calls": 8,
+    "directions": 22,
+    "ctr": 0.022,
+    "leads": 3,
+    "delta_7d": {
+      "views_pct": -0.12,
+      "calls_pct": -0.3,
+      "ctr_pct": -0.04
+    }
+  },
+  "offers": [],
+  "conversation_history": [
+    {
+      "ts": "2026-03-19T14:00:00Z",
+      "from": "vera",
+      "body": "Subscription expired. Profile maintenance paused...",
+      "engagement": "merchant_no_reply"
+    }
+  ],
+  "customer_aggregate": {
+    "total_unique_ytd": 380,
+    "lapsed_90d_plus": 180,
+    "retention_3mo_pct": 0.32
+  },
+  "signals": [
+    "winback_eligible",
+    "perf_dip_post_expiry",
+    "dormant_with_vera_38d"
+  ],
+  "review_themes": []
+}

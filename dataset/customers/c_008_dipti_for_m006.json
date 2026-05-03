@@ -1,0 +1,33 @@
+{
+  "customer_id": "c_008_dipti_for_m006",
+  "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+  "identity": {
+    "name": "Dipti",
+    "phone_redacted": "<phone>",
+    "language_pref": "english",
+    "age_band": "30-40"
+  },
+  "relationship": {
+    "first_visit": "2025-12-18",
+    "last_visit": "2026-01-05",
+    "visits_total": 2,
+    "services_received": [
+      "family_brunch",
+      "delivery_dosa_combo"
+    ],
+    "lifetime_value": 1280
+  },
+  "state": "lapsed_soft",
+  "preferences": {
+    "preferred_slots": "sunday_brunch",
+    "channel": "whatsapp",
+    "reminder_opt_in": true,
+    "family_size": 4
+  },
+  "consent": {
+    "opted_in_at": "2025-12-18",
+    "scope": [
+      "promotional_offers"
+    ]
+  }
+}

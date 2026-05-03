@@ -1,0 +1,20 @@
+{
+  "id": "trg_018_supply_atorvastatin_recall",
+  "scope": "merchant",
+  "kind": "supply_alert",
+  "source": "external",
+  "merchant_id": "m_009_apollo_pharmacy_jaipur",
+  "customer_id": null,
+  "payload": {
+    "alert_id": "d_2026W17_atorvastatin_recall",
+    "molecule": "atorvastatin",
+    "affected_batches": [
+      "AT2024-1102",
+      "AT2024-1108"
+    ],
+    "manufacturer": "MfrZ"
+  },
+  "urgency": 5,
+  "suppression_key": "alert:atorvastatin:2026-04",
+  "expires_at": "2026-05-30T00:00:00Z"
+}

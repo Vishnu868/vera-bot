@@ -1,0 +1,43 @@
+{
+  "merchant_id": "m_012_dr_karthik_dentist_mumbai",
+  "category_slug": "dentists",
+  "identity": {
+    "name": "Apex Dental Care",
+    "city": "Mumbai",
+    "locality": "Lower Parel",
+    "place_id": "ChIJ_LOWER_PAREL_DENTISTS_012",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi",
+      "mr"
+    ],
+    "owner_first_name": "Dr. Karthik",
+    "established_year": 2022
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 257,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 1381,
+    "calls": 16,
+    "directions": 56,
+    "ctr": 0.036,
+    "leads": 5,
+    "delta_7d": {
+      "views_pct": -0.25,
+      "calls_pct": -0.06
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 1505
+  },
+  "signals": [],
+  "review_themes": []
+}

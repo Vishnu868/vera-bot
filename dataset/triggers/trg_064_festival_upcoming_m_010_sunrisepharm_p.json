@@ -1,0 +1,15 @@
+{
+  "id": "trg_064_festival_upcoming_m_010_sunrisepharm_p",
+  "scope": "merchant",
+  "kind": "festival_upcoming",
+  "source": "external",
+  "merchant_id": "m_010_sunrisepharm_pharmacy_lucknow",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "festival_upcoming"
+  },
+  "urgency": 1,
+  "suppression_key": "festival_upcoming:m_010_sunrisepharm_pharmacy_lucknow:gen_64",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

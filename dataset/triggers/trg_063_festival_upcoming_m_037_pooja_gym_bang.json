@@ -1,0 +1,15 @@
+{
+  "id": "trg_063_festival_upcoming_m_037_pooja_gym_bang",
+  "scope": "merchant",
+  "kind": "festival_upcoming",
+  "source": "external",
+  "merchant_id": "m_037_pooja_gym_bangalore",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "festival_upcoming"
+  },
+  "urgency": 1,
+  "suppression_key": "festival_upcoming:m_037_pooja_gym_bangalore:gen_63",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

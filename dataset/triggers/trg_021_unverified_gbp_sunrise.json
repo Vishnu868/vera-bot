@@ -1,0 +1,16 @@
+{
+  "id": "trg_021_unverified_gbp_sunrise",
+  "scope": "merchant",
+  "kind": "gbp_unverified",
+  "source": "internal",
+  "merchant_id": "m_010_sunrisepharm_pharmacy_lucknow",
+  "customer_id": null,
+  "payload": {
+    "verified": false,
+    "verification_path": "postcard_or_phone_call",
+    "estimated_uplift_pct": 0.3
+  },
+  "urgency": 3,
+  "suppression_key": "unverified:m_010",
+  "expires_at": "2026-05-30T00:00:00Z"
+}

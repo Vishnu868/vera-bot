@@ -1,0 +1,15 @@
+{
+  "id": "trg_043_milestone_reached_m_026_karim_salon_ah",
+  "scope": "merchant",
+  "kind": "milestone_reached",
+  "source": "internal",
+  "merchant_id": "m_026_karim_salon_ahmedabad",
+  "customer_id": null,
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "milestone_reached"
+  },
+  "urgency": 1,
+  "suppression_key": "milestone_reached:m_026_karim_salon_ahmedabad:gen_43",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

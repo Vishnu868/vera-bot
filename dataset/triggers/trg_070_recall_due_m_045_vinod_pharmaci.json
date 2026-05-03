@@ -1,0 +1,15 @@
+{
+  "id": "trg_070_recall_due_m_045_vinod_pharmaci",
+  "scope": "customer",
+  "kind": "recall_due",
+  "source": "internal",
+  "merchant_id": "m_045_vinod_pharmacie_mumbai",
+  "customer_id": "c_180_diya_for_m_045_vinod_pharmacie_mumbai",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "recall_due"
+  },
+  "urgency": 3,
+  "suppression_key": "recall_due:m_045_vinod_pharmacie_mumbai:gen_70",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

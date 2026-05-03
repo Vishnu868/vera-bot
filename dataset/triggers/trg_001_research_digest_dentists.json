@@ -1,0 +1,15 @@
+{
+  "id": "trg_001_research_digest_dentists",
+  "scope": "merchant",
+  "kind": "research_digest",
+  "source": "external",
+  "merchant_id": "m_001_drmeera_dentist_delhi",
+  "customer_id": null,
+  "payload": {
+    "category": "dentists",
+    "top_item_id": "d_2026W17_jida_fluoride"
+  },
+  "urgency": 2,
+  "suppression_key": "research:dentists:2026-W17",
+  "expires_at": "2026-05-03T00:00:00Z"
+}

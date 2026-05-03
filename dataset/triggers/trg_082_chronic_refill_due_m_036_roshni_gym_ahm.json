@@ -1,0 +1,15 @@
+{
+  "id": "trg_082_chronic_refill_due_m_036_roshni_gym_ahm",
+  "scope": "customer",
+  "kind": "chronic_refill_due",
+  "source": "internal",
+  "merchant_id": "m_036_roshni_gym_ahmedabad",
+  "customer_id": "c_142_ira_for_m_036_roshni_gym_ahmedabad",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "chronic_refill_due"
+  },
+  "urgency": 2,
+  "suppression_key": "chronic_refill_due:m_036_roshni_gym_ahmedabad:gen_82",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

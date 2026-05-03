@@ -1,0 +1,15 @@
+{
+  "id": "trg_078_appointment_tomorrow_m_006_southindiancaf",
+  "scope": "customer",
+  "kind": "appointment_tomorrow",
+  "source": "internal",
+  "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+  "customer_id": "c_008_dipti_for_m006",
+  "payload": {
+    "placeholder": true,
+    "metric_or_topic": "appointment_tomorrow"
+  },
+  "urgency": 2,
+  "suppression_key": "appointment_tomorrow:m_006_southindiancafe_restaurant_bangalore:gen_78",
+  "expires_at": "2026-06-30T00:00:00Z"
+}

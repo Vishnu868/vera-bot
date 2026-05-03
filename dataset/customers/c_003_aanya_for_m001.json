@@ -1,0 +1,31 @@
+{
+  "customer_id": "c_003_aanya_for_m001",
+  "merchant_id": "m_001_drmeera_dentist_delhi",
+  "identity": {
+    "name": "Aanya (parent: Sneha)",
+    "phone_redacted": "<phone>",
+    "language_pref": "hi-en mix",
+    "age_band": "child_under_12"
+  },
+  "relationship": {
+    "first_visit": "2026-01-08",
+    "last_visit": "2026-01-08",
+    "visits_total": 1,
+    "services_received": [
+      "pediatric_checkup"
+    ],
+    "lifetime_value": 199
+  },
+  "state": "lapsed_hard",
+  "preferences": {
+    "preferred_slots": "weekday_after_3pm",
+    "channel": "whatsapp",
+    "reminder_opt_in": true
+  },
+  "consent": {
+    "opted_in_at": "2026-01-08",
+    "scope": [
+      "recall_reminders"
+    ]
+  }
+}

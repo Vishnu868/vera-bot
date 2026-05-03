@@ -1,0 +1,17 @@
+{
+  "id": "trg_011_review_theme_late_delivery",
+  "scope": "merchant",
+  "kind": "review_theme_emerged",
+  "source": "internal",
+  "merchant_id": "m_005_pizzajunction_restaurant_delhi",
+  "customer_id": null,
+  "payload": {
+    "theme": "delivery_late",
+    "occurrences_30d": 4,
+    "trend": "rising",
+    "common_quote": "took 50 mins for a 15 min ride"
+  },
+  "urgency": 3,
+  "suppression_key": "review_theme:m_005:delivery_late:2026-W17",
+  "expires_at": "2026-05-10T00:00:00Z"
+}

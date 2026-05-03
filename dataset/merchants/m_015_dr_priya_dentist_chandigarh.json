@@ -1,0 +1,42 @@
+{
+  "merchant_id": "m_015_dr_priya_dentist_chandigarh",
+  "category_slug": "dentists",
+  "identity": {
+    "name": "Family Dental Centre",
+    "city": "Chandigarh",
+    "locality": "Sector 22",
+    "place_id": "ChIJ_SECTOR_22_DENTISTS_015",
+    "verified": true,
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "owner_first_name": "Dr. Priya",
+    "established_year": 2021
+  },
+  "subscription": {
+    "status": "active",
+    "plan": "Pro",
+    "days_remaining": 239,
+    "days_since_expiry": null
+  },
+  "performance": {
+    "window_days": 30,
+    "views": 5908,
+    "calls": 10,
+    "directions": 20,
+    "ctr": 0.055,
+    "leads": 0,
+    "delta_7d": {
+      "views_pct": 0.26,
+      "calls_pct": 0.04
+    }
+  },
+  "offers": [],
+  "conversation_history": [],
+  "customer_aggregate": {
+    "total_unique_ytd": 1417
+  },
+  "signals": [],
+  "review_themes": []
+}
