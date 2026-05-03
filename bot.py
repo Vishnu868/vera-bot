@@ -8,6 +8,7 @@ import os
 import time
 import json
 import asyncio
+from groq import Groq
 from datetime import datetime, timezone
 from typing import Any, Optional
 
@@ -199,20 +200,34 @@ OUTPUT FORMAT (JSON only, no markdown):
 
 async def call_llm(system: str, user: str) -> str:
     """Universal LLM caller — routes to the configured provider."""
+
+    if LLM_PROVIDER == "groq":
+        client = Groq(api_key=LLM_API_KEY)
+        resp = client.chat.completions.create(
+            model=LLM_MODEL,
+            messages=[
+                {"role": "system", "content": system},
+                {"role": "user", "content": user},
+            ],
+            temperature=0.3,
+            max_completion_tokens=600,
+        )
+        return resp.choices[0].message.content.strip()
+
     async with httpx.AsyncClient(timeout=25.0) as client:
 
         if LLM_FORMAT == "openai":
-            # Groq, OpenAI, OpenRouter all use the same OpenAI-compatible format
             headers = {"Content-Type": "application/json"}
             if LLM_API_KEY:
                 headers["Authorization"] = f"Bearer {LLM_API_KEY}"
             if LLM_PROVIDER == "openrouter":
                 headers["HTTP-Referer"] = "https://magicpin-vera-bot.app"
+
             resp = await client.post(LLM_URL, headers=headers, json={
                 "model": LLM_MODEL,
                 "messages": [
                     {"role": "system", "content": system},
-                    {"role": "user",   "content": user},
+                    {"role": "user", "content": user},
                 ],
                 "temperature": 0.3,
                 "max_tokens": 600,
@@ -248,7 +263,7 @@ async def call_llm(system: str, user: str) -> str:
                 "model": LLM_MODEL,
                 "messages": [
                     {"role": "system", "content": system},
-                    {"role": "user",   "content": user},
+                    {"role": "user", "content": user},
                 ],
                 "stream": False,
             })
@@ -256,7 +271,6 @@ async def call_llm(system: str, user: str) -> str:
             return resp.json()["message"]["content"].strip()
 
     return ""
-
 
 async def compose_message(
     category: dict,
@@ -474,6 +488,19 @@ async def tick(body: TickBody):
     
     for i, result in enumerate(results):
         if isinstance(result, Exception):
+            actions.append({
+                "conversation_id": f"debug_{i}",
+                "merchant_id": "",
+                "customer_id": "",
+                "send_as": "vera",
+                "trigger_id": "",
+                "template_name": "debug_error",
+                "template_params": [],
+                "body": f"LLM compose failed: {str(result)}",
+                "cta": "none",
+                "suppression_key": "",
+                "rationale": "debug exception"
+            })
             continue
         conv_id, merchant_id, customer_id, trg_id, trg = task_meta[i]
         trg_data = get_ctx("trigger", trg_id) or {}
