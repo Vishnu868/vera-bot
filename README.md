@@ -37,9 +37,11 @@ Every `suppression_key` is tracked in-memory. Fired triggers are not re-used on 
 Before returning a reply, the bot checks if the composed body matches any previous Vera turn in the same conversation.
 
 ### Model choice
+
 `claude-sonnet-4-20250514` — fast enough for parallel composition within tick budget, quality sufficient for nuanced category voice (clinical for dentists, warm for salons, etc.).
 
 ### Compulsion levers used
+
 - **Specificity**: real peer stats, digest study numbers, date-stamped sources
 - **Effort externalization**: "I've already drafted it — say Go"
 - **Loss aversion**: renewal windows, competitor opened nearby
@@ -50,25 +52,23 @@ Before returning a reply, the bot checks if the composed body matches any previo
 ```bash
 pip install fastapi uvicorn httpx
 
-# Pick ONE of these — Groq is recommended (free, fast):
-export LLM_PROVIDER=groq
-export GROQ_API_KEY=gsk_xxxxxxxxxxxx    # free at console.groq.com
 
 uvicorn bot:app --host 0.0.0.0 --port 8080
 ```
 
 ### All supported providers
 
-| Provider | Env vars to set | Free? | Notes |
-|---|---|---|---|
-| `groq` (default) | `GROQ_API_KEY` | ✅ Free | Fastest. Get key at console.groq.com |
-| `gemini` | `GEMINI_API_KEY` | ✅ Free tier | aistudio.google.com |
-| `openrouter` | `OPENROUTER_API_KEY` | ✅ Free models | openrouter.ai — pick `meta-llama/llama-3.3-70b-instruct:free` |
-| `ollama` | `OLLAMA_URL` (optional) | ✅ Local | Run `ollama serve` + `ollama pull llama3.2` |
-| `openai` | `OPENAI_API_KEY` | 💰 Paid | |
-| `anthropic` | `ANTHROPIC_API_KEY` | 💰 Paid | |
+| Provider           | Env vars to set           | Free?          | Notes                                                            |
+| ------------------ | ------------------------- | -------------- | ---------------------------------------------------------------- |
+| `groq` (default) | `GROQ_API_KEY`          | ✅ Free        | Fastest. Get key at console.groq.com                             |
+| `gemini`         | `GEMINI_API_KEY`        | ✅ Free tier   | aistudio.google.com                                              |
+| `openrouter`     | `OPENROUTER_API_KEY`    | ✅ Free models | openrouter.ai — pick `meta-llama/llama-3.3-70b-instruct:free` |
+| `ollama`         | `OLLAMA_URL` (optional) | ✅ Local       | Run `ollama serve` + `ollama pull llama3.2`                  |
+| `openai`         | `OPENAI_API_KEY`        | 💰 Paid        |                                                                  |
+| `anthropic`      | `ANTHROPIC_API_KEY`     | 💰 Paid        |                                                                  |
 
 To override the default model for any provider:
+
 ```bash
 export GROQ_MODEL=mixtral-8x7b-32768      # or any Groq model
 export GEMINI_MODEL=gemini-1.5-pro        # if you have pro access
